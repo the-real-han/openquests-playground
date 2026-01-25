@@ -21,7 +21,7 @@ jobs:
           node-version: '20'
 
       - name: Install engine
-        run: npm install github:the-real-han/openquests-engine
+        run: npm install github:the-real-han/openquests#engine
 
       - name: Run world tick
         run: npx openquests tick .
