@@ -1,0 +1,7 @@
+{
+    "name": "openquests-playground",
+    "private": true,
+    "dependencies": {
+        "@openquests/engine": "github:the-real-han/openquests"
+    }
+}
