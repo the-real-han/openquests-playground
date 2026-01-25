@@ -1,0 +1,42 @@
+{
+  "day": 2,
+  "locations": {
+    "town_square": {
+      "id": "town_square",
+      "name": "Town Square",
+      "description": "The center of the village. It is safe here.",
+      "exits": [
+        "forest_edge"
+      ]
+    },
+    "forest_edge": {
+      "id": "forest_edge",
+      "name": "Forest Edge",
+      "description": "The edge of the dark forest. Goblins are rumored to be near.",
+      "exits": [
+        "town_square"
+      ]
+    }
+  },
+  "players": {},
+  "worldLog": {
+    "day": 2,
+    "summary": "A quiet day passes across the land.\n\n---\n\n### Forest Edge\nThe area is quiet.\n### Town Square\nThe area is quiet.",
+    "population": 0,
+    "notes": []
+  },
+  "locationLogs": {
+    "town_square": {
+      "day": 2,
+      "summary": "The area is quiet and undisturbed. The center of the village. It is safe here.",
+      "population": 0,
+      "notes": []
+    },
+    "forest_edge": {
+      "day": 2,
+      "summary": "The area is quiet and undisturbed. The edge of the dark forest. Goblins are rumored to be near.",
+      "population": 0,
+      "notes": []
+    }
+  }
+}
