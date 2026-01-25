@@ -1,5 +1,5 @@
 {
-  "day": 1,
+  "day": 2,
   "locations": {
     "town_square": {
       "id": "town_square",
@@ -18,22 +18,45 @@
       ]
     }
   },
-  "players": {},
+  "players": {
+    "1": {
+      "playerId": 1,
+      "github": {
+        "username": "the-real-han",
+        "issueNumber": 1,
+        "userId": 44713793
+      },
+      "character": {
+        "name": "Han The Knight",
+        "class": "Warrior",
+        "title": "Wanderer",
+        "backstory": "The one behind OpenQuests!"
+      },
+      "location": "town_square",
+      "status": {
+        "alive": true
+      },
+      "meta": {
+        "joinedDay": 1,
+        "lastActionDay": 1
+      }
+    }
+  },
   "worldLog": {
-    "day": 1,
-    "summary": "A quiet day passes across the land.\n\n---\n\n### Forest Edge\nThe area is quiet.\n### Town Square\nThe area is quiet.",
-    "population": 0,
+    "day": 2,
+    "summary": "The world stirs as adventurers continue their journeys.\n\n---\n\n### Forest Edge\nThe area is quiet.\n### Town Square\nA lone adventurer is present here.",
+    "population": 1,
     "notes": []
   },
   "locationLogs": {
     "town_square": {
-      "day": 1,
-      "summary": "The area is quiet and undisturbed. The center of the village. It is safe here.",
-      "population": 0,
+      "day": 2,
+      "summary": "A lone adventurer lingers here. The center of the village. It is safe here.",
+      "population": 1,
       "notes": []
     },
     "forest_edge": {
-      "day": 1,
+      "day": 2,
       "summary": "The area is quiet and undisturbed. The edge of the dark forest. Goblins are rumored to be near.",
       "population": 0,
       "notes": []
