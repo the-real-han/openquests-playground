@@ -1,5 +1,5 @@
 {
-  "day": 6,
+  "day": 7,
   "locations": {
     "town_square": {
       "id": "town_square",
@@ -43,20 +43,20 @@
     }
   },
   "worldLog": {
-    "day": 6,
+    "day": 7,
     "summary": "The world stirs as adventurers continue their journeys.\n\n---\n\n### Forest Edge\nA lone adventurer is present here.\n### Town Square\nThe area is quiet.",
     "population": 1,
     "notes": []
   },
   "locationLogs": {
     "town_square": {
-      "day": 6,
+      "day": 7,
       "summary": "The area is quiet and undisturbed. The center of the village. It is safe here.",
       "population": 0,
       "notes": []
     },
     "forest_edge": {
-      "day": 6,
+      "day": 7,
       "summary": "A lone adventurer lingers here. The edge of the dark forest. Goblins are rumored to be near.",
       "population": 1,
       "notes": []
