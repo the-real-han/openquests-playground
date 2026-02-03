@@ -27,6 +27,7 @@ jobs:
         run: npx github:the-real-han/openquests-engine tick
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Commit state changes
         uses: stefanzweifel/git-auto-commit-action@v5
