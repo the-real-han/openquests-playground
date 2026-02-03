@@ -1,5 +1,5 @@
 {
-  "day": 3,
+  "day": 4,
   "locations": {
     "blue_base": {
       "id": "blue_base",
@@ -38,46 +38,88 @@
       "description": "A rugged no-man’s land crawling with wild beasts and old ruins. Once fertile, now overrun, the Wildrift tempts adventurers with hidden loot and danger alike."
     }
   },
-  "players": {},
+  "players": {
+    "3": {
+      "playerId": 3,
+      "github": {
+        "username": "the-real-han",
+        "issueNumber": 3,
+        "userId": 44713793
+      },
+      "character": {
+        "name": "Han",
+        "class": "Adventurer",
+        "titles": [],
+        "backstory": "Once a warrior, now a wanderer, the monk walks the world seeking balance for every blow he once struck. He carries a single ember from his fallen temple — a flame he swore will never die until his heart truly finds peace.\nGitHub: @the-real-han\nCreated via OpenQuests UI",
+        "level": 1,
+        "xp": 0,
+        "clanId": "blue"
+      },
+      "status": {
+        "alive": true
+      },
+      "meta": {
+        "joinedDay": 3,
+        "lastActionDay": 3,
+        "gatherFoodCount": 0,
+        "gatherWoodCount": 0,
+        "gatherGoldCount": 0,
+        "food": 0,
+        "wood": 0,
+        "gold": 0,
+        "exploreCount": 0,
+        "attackCount": 0,
+        "playerWins": 0,
+        "playerLosses": 0,
+        "monsterKilled": 0,
+        "bossKilled": 0,
+        "monsterEncountered": 0,
+        "attackWinStreak": 0,
+        "attackLoseStreak": 0,
+        "attackedCount": 0
+      },
+      "message": "Welcome, Han the Adventurer, to The Timberkeep.\nLet's conquer the world together!"
+    }
+  },
   "worldLog": {
-    "day": 3,
-    "population": 0,
+    "day": 4,
+    "population": 1,
     "summary": "Unable to generate world summary",
     "notes": []
   },
   "locationLogs": {
     "blue_base": {
-      "day": 3,
+      "day": 4,
       "summary": "Unable to generate location summary",
       "notes": [],
       "population": 0
     },
     "red_base": {
-      "day": 3,
+      "day": 4,
       "summary": "Unable to generate location summary",
       "notes": [],
       "population": 0
     },
     "purple_base": {
-      "day": 3,
+      "day": 4,
       "summary": "Unable to generate location summary",
       "notes": [],
       "population": 0
     },
     "yellow_base": {
-      "day": 3,
+      "day": 4,
       "summary": "Unable to generate location summary",
       "notes": [],
       "population": 0
     },
     "black_base": {
-      "day": 3,
+      "day": 4,
       "summary": "Unable to generate location summary",
       "notes": [],
       "population": 0
     },
     "monsters_base": {
-      "day": 3,
+      "day": 4,
       "summary": "Unable to generate location summary",
       "notes": [],
       "population": 0
@@ -88,7 +130,7 @@
       "id": "blue_clan",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 145,
+      "wood": 160,
       "food": 100,
       "gold": 100,
       "defeatedBy": null,
@@ -102,7 +144,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 100,
       "food": 100,
-      "gold": 145,
+      "gold": 160,
       "bonus": {
         "gold": 15
       },
@@ -112,9 +154,9 @@
       "id": "purple_clan",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 115,
-      "food": 115,
-      "gold": 115,
+      "wood": 120,
+      "food": 120,
+      "gold": 120,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -127,7 +169,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 100,
-      "food": 145,
+      "food": 160,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -139,7 +181,7 @@
       "name": "The Shardveil",
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
       "wood": 100,
-      "food": 130,
+      "food": 145,
       "gold": 115,
       "bonus": {},
       "defeatedBy": null
