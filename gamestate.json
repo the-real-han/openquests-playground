@@ -39,47 +39,6 @@
     }
   },
   "players": {
-    "3": {
-      "playerId": 3,
-      "github": {
-        "username": "the-real-han",
-        "issueNumber": 3,
-        "userId": 44713793
-      },
-      "character": {
-        "name": "Han",
-        "class": "Adventurer",
-        "titles": [],
-        "backstory": "Once a warrior, now a wanderer, the monk walks the world seeking balance for every blow he once struck. He carries a single ember from his fallen temple — a flame he swore will never die until his heart truly finds peace.\nGitHub: @the-real-han\nCreated via OpenQuests UI",
-        "level": 1,
-        "xp": 0,
-        "clanId": "blue"
-      },
-      "status": {
-        "alive": true
-      },
-      "meta": {
-        "joinedDay": 3,
-        "lastActionDay": 3,
-        "gatherFoodCount": 0,
-        "gatherWoodCount": 0,
-        "gatherGoldCount": 0,
-        "food": 0,
-        "wood": 0,
-        "gold": 0,
-        "exploreCount": 0,
-        "attackCount": 0,
-        "playerWins": 0,
-        "playerLosses": 0,
-        "monsterKilled": 0,
-        "bossKilled": 0,
-        "monsterEncountered": 0,
-        "attackWinStreak": 0,
-        "attackLoseStreak": 0,
-        "attackedCount": 0
-      },
-      "message": "Welcome, Han the Adventurer, to The Timberkeep.\nLet's conquer the world together!"
-    }
   },
   "worldLog": {
     "day": 4,
