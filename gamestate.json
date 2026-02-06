@@ -1,5 +1,5 @@
 {
-  "day": 3,
+  "day": 4,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -82,45 +82,45 @@
     }
   },
   "worldLog": {
-    "day": 3,
+    "day": 4,
     "population": 1,
-    "summary": "The third dawn broke over a world still in its nascent moments. A lone soul stirred, the sole flicker of life in the vast expanse. The day passed in quietude, with no tremors of boss battles nor the shifting of the earth to mark its passage.",
+    "summary": "Day four dawned, a quiet cycle upon the land. The single soul known to wander this realm continued their passage, their journey marked by no grand pronouncements from the heavens. The very earth remained still, its ancient stones undisturbed by any significant tremor.",
     "notes": []
   },
   "locationLogs": {
     "pinewood-grove": {
-      "day": 3,
-      "summary": "On day 3 in Pinewood Grove, The Timberkeep clan experienced a surge in their wood resources, with an additional fifteen units being gathered.",
+      "day": 4,
+      "summary": "The Timberkeep clan experienced a significant surge in their wood resources. They gained a substantial 15 units of wood during their time in Pinewood Grove.",
       "notes": [],
       "population": 1
     },
     "goldforge-mine": {
-      "day": 3,
-      "summary": "On day three at the Goldforge Mine, The Emberwatch clan experienced a significant surge in their gold reserves, increasing their holdings by fifteen units.",
+      "day": 4,
+      "summary": "The Emberwatch clan experienced a significant surge of gold, with an increase of 15 units discovered. This marks a prosperous day for the clan in the Goldforge Mine.",
       "notes": [],
       "population": 0
     },
     "harmony-fields": {
-      "day": 3,
-      "summary": "On Day 3 at Harmony Fields, The Prismveil clan faced defeat. The vast plains now lie under the dominion of a new power, with no significant resource gains to report.",
+      "day": 4,
+      "summary": "The Prismveil clan has been defeated. Harmony Fields is now under the control of a new power, though their identity is not yet known.",
       "notes": [],
       "population": 0
     },
     "golden-plains": {
-      "day": 3,
-      "summary": "The Sunherd clan experienced a significant surge in their food resources, gaining an additional fifteen units. This bounty promises to sustain them for some time on the Golden Plains.",
+      "day": 4,
+      "summary": "On day four at the Golden Plains, a significant surge of food was discovered, amounting to 15 units. The Sunherd clan experienced this boon, ensuring a greater store of sustenance.",
       "notes": [],
       "population": 0
     },
     "twilight-pits": {
-      "day": 3,
-      "summary": "The Shardveil clan experienced a significant surge of gold, with 15 units appearing in the Twilight Pits.",
+      "day": 4,
+      "summary": "The Shardveil clan experienced a significant surge in wood, with an increase of fifteen units.",
       "notes": [],
       "population": 0
     },
     "wildrift": {
-      "day": 3,
-      "summary": "On day 3 at The Wildrift, the clan known as the Stonefangs was defeated. No significant resource gains were recorded.",
+      "day": 4,
+      "summary": "No significant events occurred at The Wildrift on day 4, as the day's log is empty. The Wildrift remained unchanged.",
       "notes": [],
       "population": 0
     }
@@ -130,7 +130,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 145,
+      "wood": 160,
       "food": 100,
       "gold": 100,
       "defeatedBy": null,
@@ -144,7 +144,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 100,
       "food": 100,
-      "gold": 145,
+      "gold": 160,
       "bonus": {
         "gold": 15
       },
@@ -154,9 +154,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 115,
-      "food": 115,
-      "gold": 115,
+      "wood": 120,
+      "food": 120,
+      "gold": 120,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -169,7 +169,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 100,
-      "food": 145,
+      "food": 160,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -180,7 +180,7 @@
       "id": "shardveil",
       "name": "The Shardveil",
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
-      "wood": 115,
+      "wood": 130,
       "food": 100,
       "gold": 130,
       "bonus": {},
