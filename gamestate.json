@@ -1,0 +1,252 @@
+{
+  "day": 1,
+  "locations": {
+    "pinewood-grove": {
+      "id": "pinewood-grove",
+      "name": "Pinewood Grove",
+      "clanId": "timberkeep",
+      "description": "Home of the Timberkeep.",
+      "history": [
+        {
+          "day": 1,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "Day 1 at Pinewood Grove brought good fortune for The Timberkeep. A significant surge of wood was discovered, increasing their stores by 15 units."
+        }
+      ]
+    },
+    "goldforge-mine": {
+      "id": "goldforge-mine",
+      "name": "Goldforge Mine",
+      "clanId": "emberwatch",
+      "description": "Home of the Emberwatch.",
+      "history": [
+        {
+          "day": 1,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "On Day 1, The Emberwatch clan reported a significant find at Goldforge Mine. Miners discovered a surge of gold, extracting 15 units of the precious metal."
+        }
+      ]
+    },
+    "harmony-fields": {
+      "id": "harmony-fields",
+      "name": "Harmony Fields",
+      "clanId": "prismveil",
+      "description": "Home of the Prismveil.",
+      "history": [
+        {
+          "day": 1,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Harmony Fields remained tranquil throughout the day. No significant events or changes were recorded in the area."
+        }
+      ]
+    },
+    "golden-plains": {
+      "id": "golden-plains",
+      "name": "Golden Plains",
+      "clanId": "sunherd",
+      "description": "Home of the Sunherd.",
+      "history": [
+        {
+          "day": 1,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "In the Golden Plains, The Sunherd clan saw a welcome surge in their provisions. Their stores were significantly bolstered, with food supplies increasing by 15 units."
+        }
+      ]
+    },
+    "twilight-pits": {
+      "id": "twilight-pits",
+      "name": "Twilight Pits",
+      "clanId": "shardveil",
+      "description": "Home of the Shardveil.",
+      "history": [
+        {
+          "day": 1,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "At the Twilight Pits on Day 1, The Shardveil clan witnessed a notable change. A considerable surge in gold was discovered, increasing their stores by 15 units."
+        }
+      ]
+    },
+    "wildrift": {
+      "id": "wildrift",
+      "name": "The Wildrift",
+      "clanId": "monsters",
+      "description": "A rugged no-man’s land crawling with wild beasts and old ruins. Once fertile, now overrun, the Wildrift tempts adventurers with hidden loot and danger alike.",
+      "history": [
+        {
+          "day": 1,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "Day 1 in The Wildrift passed without incident. No events of note transpired within its borders."
+        }
+      ]
+    }
+  },
+  "players": {
+    "3": {
+      "playerId": 3,
+      "github": {
+        "username": "the-real-han",
+        "issueNumber": 3,
+        "userId": 44713793
+      },
+      "character": {
+        "name": "Han",
+        "class": "Monk",
+        "titles": [],
+        "backstory": "Once a warrior, now a wanderer, the monk walks the world seeking balance for every blow he once struck. He carries a single ember from his fallen temple — a flame he swore will never die until his heart truly finds peace.\nGitHub: @the-real-han\nCreated via OpenQuests UI",
+        "level": 1,
+        "xp": 0,
+        "clanId": "timberkeep"
+      },
+      "meta": {
+        "joinedDay": 0,
+        "lastActionDay": 0,
+        "gatherFoodCount": 0,
+        "gatherWoodCount": 0,
+        "gatherGoldCount": 0,
+        "food": 0,
+        "wood": 0,
+        "gold": 0,
+        "exploreCount": 0,
+        "attackCount": 0,
+        "playerWins": 0,
+        "playerLosses": 0,
+        "monsterKilled": 0,
+        "bossKilled": 0,
+        "monsterEncountered": 0,
+        "attackWinStreak": 0,
+        "attackLoseStreak": 0,
+        "attackedCount": 0
+      },
+      "history": [
+        {
+          "day": 1,
+          "summary": "Welcome, Han the Monk, to The Timberkeep.\nLet's conquer the world together!"
+        }
+      ],
+      "message": "Welcome, Han the Monk, to The Timberkeep.\nLet's conquer the world together!"
+    }
+  },
+  "clans": {
+    "timberkeep": {
+      "id": "timberkeep",
+      "name": "The Timberkeep",
+      "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
+      "wood": 115,
+      "food": 100,
+      "gold": 100,
+      "defeatedBy": null,
+      "bonus": {
+        "wood": 15
+      }
+    },
+    "emberwatch": {
+      "id": "emberwatch",
+      "name": "The Emberwatch",
+      "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
+      "wood": 100,
+      "food": 100,
+      "gold": 115,
+      "bonus": {
+        "gold": 15
+      },
+      "defeatedBy": null
+    },
+    "prismveil": {
+      "id": "prismveil",
+      "name": "The Prismveil",
+      "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
+      "wood": 105,
+      "food": 105,
+      "gold": 105,
+      "bonus": {
+        "wood": 5,
+        "food": 5,
+        "gold": 5
+      },
+      "defeatedBy": null
+    },
+    "sunherd": {
+      "id": "sunherd",
+      "name": "The Sunherd",
+      "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
+      "wood": 100,
+      "food": 115,
+      "gold": 100,
+      "bonus": {
+        "food": 15
+      },
+      "defeatedBy": null
+    },
+    "shardveil": {
+      "id": "shardveil",
+      "name": "The Shardveil",
+      "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
+      "wood": 100,
+      "food": 100,
+      "gold": 115,
+      "bonus": {},
+      "defeatedBy": null
+    }
+  },
+  "activeEvents": [],
+  "activeModifiers": [],
+  "activeBoss": null,
+  "history": [
+    {
+      "day": 1,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "On the first day, the world unfolded its untouched lands under an indifferent sky. A singular presence stirred within its vastness, a lone soul in the quiet expanse. No ancient powers awoke, nor did the slumbering depths yield any creatures of legend."
+    }
+  ]
+}
