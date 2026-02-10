@@ -1,5 +1,5 @@
 {
-  "day": 3,
+  "day": 4,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -54,6 +54,22 @@
           ],
           "population": 1,
           "summary": "At Pinewood Grove on Day 2, The Timberkeep saw their resources increase. Their wood reserves surged, growing by 15 units."
+        },
+        {
+          "day": 3,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "On Day 3 at Pinewood Grove, the Timberkeep clan saw a surge in their resources. They gained a substantial amount of wood, with their stores increasing by 15 units."
         }
       ]
     },
@@ -110,6 +126,22 @@
           ],
           "population": 0,
           "summary": "At Goldforge Mine on Day 2, The Emberwatch clan experienced a fortunate turn of events. A significant surge in production yielded 15 units of gold."
+        },
+        {
+          "day": 3,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 3 at Goldforge Mine brought good fortune to The Emberwatch clan. A significant resource surge occurred, yielding 15 units of gold."
         }
       ]
     },
@@ -142,6 +174,14 @@
           "events": [],
           "population": 0,
           "summary": "Harmony Fields remained quiet on Day 2. No notable events were recorded in the area."
+        },
+        {
+          "day": 3,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Day 3 at Harmony Fields concluded. No significant events transpired for The Prismveil in this location."
         }
       ]
     },
@@ -198,6 +238,22 @@
           ],
           "population": 0,
           "summary": "In the Golden Plains on Day 2, The Sunherd encountered a bountiful surge. Their food stores increased by an impressive 15 units."
+        },
+        {
+          "day": 3,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "On Day 3 in the Golden Plains, The Sunherd experienced a significant surge in their provisions. Their food stores increased by 15 units."
         }
       ]
     },
@@ -254,6 +310,22 @@
           ],
           "population": 0,
           "summary": "At the Twilight Pits on Day 2, the Shardveil clan experienced a significant resource surge. They uncovered a large bounty, gaining 15 units of food."
+        },
+        {
+          "day": 3,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "At the Twilight Pits on Day 3, The Shardveil experienced a significant boon. A surge of 15 food units was discovered, greatly enhancing their provisions."
         }
       ]
     },
@@ -283,6 +355,13 @@
           "events": [],
           "population": 0,
           "summary": "The Wildrift experienced an uneventful day. Nothing of note transpired across its rugged terrain."
+        },
+        {
+          "day": 3,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "At The Wildrift on Day 3, no significant events unfolded. The land remained untouched by any notable occurrences."
         }
       ]
     }
@@ -309,10 +388,10 @@
         "lastActionDay": 0,
         "gatherFoodCount": 0,
         "gatherWoodCount": 0,
-        "gatherGoldCount": 0,
+        "gatherGoldCount": 1,
         "food": 0,
         "wood": 0,
-        "gold": 5,
+        "gold": 15,
         "exploreCount": 1,
         "attackCount": 0,
         "playerWins": 0,
@@ -344,9 +423,17 @@
             "target": "goldforge-mine"
           },
           "summary": "You found no defenders — only ruins."
+        },
+        {
+          "day": 3,
+          "action": {
+            "type": "GATHER",
+            "target": "gold"
+          },
+          "summary": "[+10 gold] A solid day’s work brought steady results."
         }
       ],
-      "message": "You found no defenders — only ruins."
+      "message": "[+10 gold] A solid day’s work brought steady results."
     }
   },
   "clans": {
@@ -354,9 +441,9 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 145,
+      "wood": 160,
       "food": 100,
-      "gold": 85,
+      "gold": 95,
       "defeatedBy": null,
       "bonus": {
         "wood": 15
@@ -368,7 +455,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 100,
       "food": 100,
-      "gold": 145,
+      "gold": 160,
       "bonus": {
         "gold": 15
       },
@@ -378,9 +465,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 115,
-      "food": 115,
-      "gold": 115,
+      "wood": 120,
+      "food": 120,
+      "gold": 120,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -393,7 +480,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 100,
-      "food": 145,
+      "food": 160,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -405,7 +492,7 @@
       "name": "The Shardveil",
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
       "wood": 100,
-      "food": 115,
+      "food": 130,
       "gold": 130,
       "bonus": {},
       "defeatedBy": null
@@ -435,6 +522,13 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "Day Two unfurled across the nascent world, a quiet echo of the time before. No great stirrings or cataclysmic events rippled across the ancient lands. The lone spark of life, the solitary soul, continued its vigil amidst the tranquil vastness."
+    },
+    {
+      "day": 3,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "Day Three dawned, silent and profound, as the world continued its slow, ancient breath. No towering beasts emerged from the mists, nor did forgotten lands shift to reveal new mysteries. Across the quiet expanse, a single spark of life persisted, a solitary sentinel awaiting the turning of ages."
     }
   ]
 }
