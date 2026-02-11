@@ -1,5 +1,5 @@
 {
-  "day": 4,
+  "day": 5,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -70,6 +70,22 @@
           ],
           "population": 1,
           "summary": "On Day 3 at Pinewood Grove, the Timberkeep clan saw a surge in their resources. They gained a substantial amount of wood, with their stores increasing by 15 units."
+        },
+        {
+          "day": 4,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "At Pinewood Grove on Day 4, the area experienced a significant resource surge. An impressive 15 units of wood were discovered and collected."
         }
       ]
     },
@@ -142,6 +158,22 @@
           ],
           "population": 0,
           "summary": "Day 3 at Goldforge Mine brought good fortune to The Emberwatch clan. A significant resource surge occurred, yielding 15 units of gold."
+        },
+        {
+          "day": 4,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 4 brought a significant event to Goldforge Mine. A substantial resource surge yielded 15 units of gold."
         }
       ]
     },
@@ -182,6 +214,14 @@
           "events": [],
           "population": 0,
           "summary": "Day 3 at Harmony Fields concluded. No significant events transpired for The Prismveil in this location."
+        },
+        {
+          "day": 4,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Harmony Fields experienced a quiet Day 4. No significant events were recorded for The Prismveil clan during this period."
         }
       ]
     },
@@ -254,6 +294,22 @@
           ],
           "population": 0,
           "summary": "On Day 3 in the Golden Plains, The Sunherd experienced a significant surge in their provisions. Their food stores increased by 15 units."
+        },
+        {
+          "day": 4,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 4 saw a fortunate turn for The Sunherd in the Golden Plains. A surge in resources provided them with an additional 15 units of food."
         }
       ]
     },
@@ -326,6 +382,22 @@
           ],
           "population": 0,
           "summary": "At the Twilight Pits on Day 3, The Shardveil experienced a significant boon. A surge of 15 food units was discovered, greatly enhancing their provisions."
+        },
+        {
+          "day": 4,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "At the Twilight Pits on Day 4, The Shardveil clan was present. They benefited from a surge in wood, with supplies increasing by 15 units."
         }
       ]
     },
@@ -362,6 +434,13 @@
           "events": [],
           "population": 0,
           "summary": "At The Wildrift on Day 3, no significant events unfolded. The land remained untouched by any notable occurrences."
+        },
+        {
+          "day": 4,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "The Wildrift remained untouched. No significant events transpired within its borders, leaving the landscape as it was."
         }
       ]
     }
@@ -393,13 +472,13 @@
         "wood": 0,
         "gold": 15,
         "exploreCount": 1,
-        "attackCount": 0,
-        "playerWins": 0,
+        "attackCount": 1,
+        "playerWins": 1,
         "playerLosses": 0,
         "monsterKilled": 0,
         "bossKilled": 0,
         "monsterEncountered": 0,
-        "attackWinStreak": 0,
+        "attackWinStreak": 1,
         "attackLoseStreak": 0,
         "attackedCount": 0
       },
@@ -431,9 +510,17 @@
             "target": "gold"
           },
           "summary": "[+10 gold] A solid day’s work brought steady results."
+        },
+        {
+          "day": 4,
+          "action": {
+            "type": "ATTACK",
+            "target": "goldforge-mine"
+          },
+          "summary": "[+5 food] Your clan emerged victorious against The Emberwatch after fierce fighting."
         }
       ],
-      "message": "[+10 gold] A solid day’s work brought steady results."
+      "message": "[+5 food] Your clan emerged victorious against The Emberwatch after fierce fighting."
     }
   },
   "clans": {
@@ -441,9 +528,9 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 160,
-      "food": 100,
-      "gold": 95,
+      "wood": 175,
+      "food": 105,
+      "gold": 75,
       "defeatedBy": null,
       "bonus": {
         "wood": 15
@@ -453,9 +540,9 @@
       "id": "emberwatch",
       "name": "The Emberwatch",
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
-      "wood": 100,
-      "food": 100,
-      "gold": 160,
+      "wood": 95,
+      "food": 95,
+      "gold": 175,
       "bonus": {
         "gold": 15
       },
@@ -465,9 +552,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 120,
-      "food": 120,
-      "gold": 120,
+      "wood": 125,
+      "food": 125,
+      "gold": 125,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -480,7 +567,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 100,
-      "food": 160,
+      "food": 175,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -491,7 +578,7 @@
       "id": "shardveil",
       "name": "The Shardveil",
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
-      "wood": 100,
+      "wood": 115,
       "food": 130,
       "gold": 130,
       "bonus": {},
@@ -529,6 +616,13 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "Day Three dawned, silent and profound, as the world continued its slow, ancient breath. No towering beasts emerged from the mists, nor did forgotten lands shift to reveal new mysteries. Across the quiet expanse, a single spark of life persisted, a solitary sentinel awaiting the turning of ages."
+    },
+    {
+      "day": 4,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "The fourth day unfolded with a quiet grace, the ancient world holding its breath. No great cataclysms stirred the earth, nor did any new legends etch themselves into the sky. Yet, a solitary essence persisted, a subtle pulse echoing through the stillness of the primordial lands."
     }
   ]
 }
