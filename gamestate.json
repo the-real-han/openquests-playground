@@ -1,5 +1,5 @@
 {
-  "day": 5,
+  "day": 6,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -86,6 +86,22 @@
           ],
           "population": 1,
           "summary": "At Pinewood Grove on Day 4, the area experienced a significant resource surge. An impressive 15 units of wood were discovered and collected."
+        },
+        {
+          "day": 5,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "At Pinewood Grove, The Timberkeep clan had a prosperous day. Their wood resources experienced a surge, increasing by 15 units."
         }
       ]
     },
@@ -174,6 +190,22 @@
           ],
           "population": 0,
           "summary": "Day 4 brought a significant event to Goldforge Mine. A substantial resource surge yielded 15 units of gold."
+        },
+        {
+          "day": 5,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 5 at Goldforge Mine was a prosperous one for The Emberwatch. The miners unearthed a significant surge of 15 gold."
         }
       ]
     },
@@ -222,6 +254,14 @@
           "events": [],
           "population": 0,
           "summary": "Harmony Fields experienced a quiet Day 4. No significant events were recorded for The Prismveil clan during this period."
+        },
+        {
+          "day": 5,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "At Harmony Fields on Day 5, the lands remained quiet. No significant events were recorded here."
         }
       ]
     },
@@ -310,6 +350,22 @@
           ],
           "population": 0,
           "summary": "Day 4 saw a fortunate turn for The Sunherd in the Golden Plains. A surge in resources provided them with an additional 15 units of food."
+        },
+        {
+          "day": 5,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "On Day 5 in the Golden Plains, the Sunherd clan experienced a beneficial resource surge. Their food stores notably increased, gaining 15 units."
         }
       ]
     },
@@ -398,6 +454,22 @@
           ],
           "population": 0,
           "summary": "At the Twilight Pits on Day 4, The Shardveil clan was present. They benefited from a surge in wood, with supplies increasing by 15 units."
+        },
+        {
+          "day": 5,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "The Twilight Pits experienced a surge of wealth today. A remarkable 15 units of gold were discovered within its depths."
         }
       ]
     },
@@ -441,6 +513,13 @@
           "events": [],
           "population": 0,
           "summary": "The Wildrift remained untouched. No significant events transpired within its borders, leaving the landscape as it was."
+        },
+        {
+          "day": 5,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "Day 5 passed at The Wildrift. No notable events occurred."
         }
       ]
     }
@@ -518,9 +597,17 @@
             "target": "goldforge-mine"
           },
           "summary": "[+5 food] Your clan emerged victorious against The Emberwatch after fierce fighting."
+        },
+        {
+          "day": 5,
+          "action": {
+            "type": "ATTACK",
+            "target": "wildrift"
+          },
+          "summary": "The clan you sought has already fallen."
         }
       ],
-      "message": "[+5 food] Your clan emerged victorious against The Emberwatch after fierce fighting."
+      "message": "The clan you sought has already fallen."
     }
   },
   "clans": {
@@ -528,7 +615,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 175,
+      "wood": 190,
       "food": 105,
       "gold": 75,
       "defeatedBy": null,
@@ -542,7 +629,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 175,
+      "gold": 190,
       "bonus": {
         "gold": 15
       },
@@ -552,9 +639,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 125,
-      "food": 125,
-      "gold": 125,
+      "wood": 130,
+      "food": 130,
+      "gold": 130,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -567,7 +654,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 100,
-      "food": 175,
+      "food": 190,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -580,14 +667,31 @@
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
       "wood": 115,
       "food": 130,
-      "gold": 130,
+      "gold": 145,
       "bonus": {},
       "defeatedBy": null
     }
   },
-  "activeEvents": [],
+  "activeEvents": [
+    {
+      "id": "boss_appear_ancient_world_eater_5",
+      "type": "BOSS_APPEAR",
+      "day": 5,
+      "location": "The Wildrift",
+      "data": {
+        "bossName": "The Ancient World Eater",
+        "message": "A colossal presence threatens to devour all at the Monster Base."
+      }
+    }
+  ],
   "activeModifiers": [],
-  "activeBoss": null,
+  "activeBoss": {
+    "bossId": "ancient_world_eater",
+    "locationId": "wildrift",
+    "appearedOn": 5,
+    "expiresOn": 8,
+    "participants": []
+  },
   "history": [
     {
       "day": 1,
@@ -623,6 +727,20 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "The fourth day unfolded with a quiet grace, the ancient world holding its breath. No great cataclysms stirred the earth, nor did any new legends etch themselves into the sky. Yet, a solitary essence persisted, a subtle pulse echoing through the stillness of the primordial lands."
+    },
+    {
+      "day": 5,
+      "population": 1,
+      "bossEvents": [
+        {
+          "name": "The Ancient World Eater",
+          "location": "The Wildrift",
+          "status": "APPEARED",
+          "message": "A colossal presence threatens to devour all at the Monster Base."
+        }
+      ],
+      "locationEvents": [],
+      "summary": "On the fifth day, a primordial terror stirred in the Wildrift. The Ancient World Eater, a colossal presence of cosmic hunger, revealed itself, its very arrival a dread prophecy of consumption threatening the Monster Base."
     }
   ]
 }
