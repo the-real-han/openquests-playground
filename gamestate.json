@@ -1,5 +1,5 @@
 {
-  "day": 7,
+  "day": 8,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -118,6 +118,22 @@
           ],
           "population": 1,
           "summary": "At Pinewood Grove on Day 6, The Timberkeep saw a significant increase in their wood reserves. They gained 15 units of wood, bolstering their resources."
+        },
+        {
+          "day": 7,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "At Pinewood Grove on Day 7, The Timberkeep experienced a significant surge in wood. The forest's bounty proved exceptionally generous, providing a valuable influx of resources for the clan's needs."
         }
       ]
     },
@@ -238,6 +254,22 @@
           ],
           "population": 0,
           "summary": "At Goldforge Mine on Day 6, The Emberwatch discovered a rich vein within its depths. This led to a significant resource surge, adding 15 units of gold to their reserves."
+        },
+        {
+          "day": 7,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 7 at Goldforge Mine brought good fortune for The Emberwatch clan. Deep within the ancient tunnels, miners unearthed a significant surge of gold. This rich discovery promises a prosperous future for the clan."
         }
       ]
     },
@@ -302,6 +334,14 @@
           "events": [],
           "population": 0,
           "summary": "Harmony Fields experienced a quiet Day 6. No events were recorded for The Prismveil in this location."
+        },
+        {
+          "day": 7,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Harmony Fields enjoyed another tranquil day under the gentle sun. The lands remained peaceful, allowing The Prismveil clan to continue their endeavors undisturbed."
         }
       ]
     },
@@ -422,6 +462,22 @@
           ],
           "population": 0,
           "summary": "On Day 6, the Golden Plains experienced a significant surge in resources. The Sunherd clan saw their food reserves increase by a substantial 15 units."
+        },
+        {
+          "day": 7,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "On Day 7, the Golden Plains proved bountiful for the Sunherd clan. A significant surge of food was gathered, bolstering their provisions for the days ahead."
         }
       ]
     },
@@ -542,6 +598,22 @@
           ],
           "population": 0,
           "summary": "Day 6 brought prosperity to the Twilight Pits. A significant surge of gold was discovered, yielding a gain of 15 units of the precious metal."
+        },
+        {
+          "day": 7,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 7 brought a welcome surge of resources to the Twilight Pits. The Shardveil clan discovered a rich abundance of food within these depths. This unexpected bounty provides a crucial lifeline, ensuring the clan's continued strength and endurance."
         }
       ]
     },
@@ -599,6 +671,13 @@
           "events": [],
           "population": 0,
           "summary": "At The Wildrift on Day 6, the day passed without incident. No new developments were recorded in the area."
+        },
+        {
+          "day": 7,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "Day seven in the Wildrift dawned with a serene calm, the winds carrying only the scent of pine and distant rain. Our scouts reported no significant movements from rival clans, allowing for a day of peaceful foraging and strengthening our defenses. It was a welcome respite from the usual clamor of the untamed lands."
         }
       ]
     }
@@ -617,7 +696,7 @@
         "titles": [],
         "backstory": "Once a warrior, now a wanderer, the monk walks the world seeking balance for every blow he once struck. He carries a single ember from his fallen temple — a flame he swore will never die until his heart truly finds peace.\nGitHub: @the-real-han\nCreated via OpenQuests UI",
         "level": 1,
-        "xp": 0,
+        "xp": 3,
         "clanId": "timberkeep"
       },
       "meta": {
@@ -635,7 +714,7 @@
         "playerLosses": 0,
         "monsterKilled": 0,
         "bossKilled": 0,
-        "monsterEncountered": 0,
+        "monsterEncountered": 1,
         "attackWinStreak": 1,
         "attackLoseStreak": 0,
         "attackedCount": 0
@@ -692,9 +771,17 @@
             "target": "wildrift"
           },
           "summary": "[+3 food] The hunt was difficult and unrewarding."
+        },
+        {
+          "day": 7,
+          "action": {
+            "type": "ATTACK",
+            "target": "wildrift"
+          },
+          "summary": "You join the hunt against a legendary foe, The Ancient World Eater\n[+3 xp] The Ancient World Eater is no ordinary creature, try attacking with more allies."
         }
       ],
-      "message": "[+3 food] The hunt was difficult and unrewarding."
+      "message": "You join the hunt against a legendary foe, The Ancient World Eater\n[+3 xp] The Ancient World Eater is no ordinary creature, try attacking with more allies."
     }
   },
   "clans": {
@@ -702,7 +789,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 205,
+      "wood": 220,
       "food": 108,
       "gold": 75,
       "defeatedBy": null,
@@ -716,7 +803,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 205,
+      "gold": 220,
       "bonus": {
         "gold": 15
       },
@@ -726,9 +813,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 135,
-      "food": 135,
-      "gold": 135,
+      "wood": 140,
+      "food": 140,
+      "gold": 140,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -741,7 +828,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 100,
-      "food": 205,
+      "food": 220,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -753,7 +840,7 @@
       "name": "The Shardveil",
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
       "wood": 115,
-      "food": 130,
+      "food": 145,
       "gold": 160,
       "bonus": {},
       "defeatedBy": null
@@ -835,6 +922,13 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "On the sixth dawn, the ancient world lay still, untouched by new sagas. No formidable powers stirred from their slumber, nor did the lands echo with the clamor of burgeoning conflict. It was a day of quiet breath, where time itself seemed to hold a silent vigil."
+    },
+    {
+      "day": 7,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "Day 7 dawned, and the world held its breath beneath the silent gaze of ancient stars. No great tremors shook the land, nor did new legends unfold across its timeless canvas. Yet, a solitary flame of existence continued to flicker, a lone echo against the vast quietude."
     }
   ]
 }
