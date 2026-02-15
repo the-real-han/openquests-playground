@@ -1,5 +1,5 @@
 {
-  "day": 8,
+  "day": 9,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -134,6 +134,22 @@
           ],
           "population": 1,
           "summary": "At Pinewood Grove on Day 7, The Timberkeep experienced a significant surge in wood. The forest's bounty proved exceptionally generous, providing a valuable influx of resources for the clan's needs."
+        },
+        {
+          "day": 8,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "At Pinewood Grove, Day 8 brought a welcome boost to The Timberkeep. A significant surge in wood supplies was gathered, replenishing the clan's vital resources. These efforts ensure a steady provision for future endeavors from the grove."
         }
       ]
     },
@@ -270,6 +286,22 @@
           ],
           "population": 0,
           "summary": "Day 7 at Goldforge Mine brought good fortune for The Emberwatch clan. Deep within the ancient tunnels, miners unearthed a significant surge of gold. This rich discovery promises a prosperous future for the clan."
+        },
+        {
+          "day": 8,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 8 at Goldforge Mine was a prosperous one for The Emberwatch clan. Miners uncovered a significant surge in gold, ensuring continued prosperity for their efforts."
         }
       ]
     },
@@ -342,6 +374,14 @@
           "events": [],
           "population": 0,
           "summary": "Harmony Fields enjoyed another tranquil day under the gentle sun. The lands remained peaceful, allowing The Prismveil clan to continue their endeavors undisturbed."
+        },
+        {
+          "day": 8,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Harmony Fields experienced a day of gentle peace. The sun warmed the fertile earth, and a quiet calm settled over the lands, allowing for a moment of collective tranquility."
         }
       ]
     },
@@ -478,6 +518,22 @@
           ],
           "population": 0,
           "summary": "On Day 7, the Golden Plains proved bountiful for the Sunherd clan. A significant surge of food was gathered, bolstering their provisions for the days ahead."
+        },
+        {
+          "day": 8,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 10
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "On Day 8, the Golden Plains yielded an unexpected abundance. The Sunherd clan celebrated a significant surge in food, filling their stores with the land's generous bounty."
         }
       ]
     },
@@ -614,6 +670,22 @@
           ],
           "population": 0,
           "summary": "Day 7 brought a welcome surge of resources to the Twilight Pits. The Shardveil clan discovered a rich abundance of food within these depths. This unexpected bounty provides a crucial lifeline, ensuring the clan's continued strength and endurance."
+        },
+        {
+          "day": 8,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 8 brought good fortune to The Shardveil clan at the Twilight Pits. A significant surge of gold was unearthed within the shadowed caverns. This valuable find promises to bolster their resources and fuel future endeavors."
         }
       ]
     },
@@ -678,6 +750,21 @@
           "events": [],
           "population": 0,
           "summary": "Day seven in the Wildrift dawned with a serene calm, the winds carrying only the scent of pine and distant rain. Our scouts reported no significant movements from rival clans, allowing for a day of peaceful foraging and strengthening our defenses. It was a welcome respite from the usual clamor of the untamed lands."
+        },
+        {
+          "day": 8,
+          "location": "The Wildrift",
+          "events": [
+            {
+              "type": "BOSS_FAILED",
+              "data": {
+                "bossName": "The Ancient World Eater",
+                "message": "The World Eater roars, hunger unfulfilled."
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "The Ancient World Eater awoke today in the Wildrift, a terrifying presence that defied all efforts to banish it. Despite our valiant stand, it proved too mighty to overcome. Its roar echoed through the chasm, a hungry cry of unfulfilled malice that promises future dread."
         }
       ]
     }
@@ -709,13 +796,13 @@
         "wood": 0,
         "gold": 15,
         "exploreCount": 2,
-        "attackCount": 1,
-        "playerWins": 1,
+        "attackCount": 2,
+        "playerWins": 2,
         "playerLosses": 0,
         "monsterKilled": 0,
         "bossKilled": 0,
         "monsterEncountered": 1,
-        "attackWinStreak": 1,
+        "attackWinStreak": 2,
         "attackLoseStreak": 0,
         "attackedCount": 0
       },
@@ -779,9 +866,17 @@
             "target": "wildrift"
           },
           "summary": "You join the hunt against a legendary foe, The Ancient World Eater\n[+3 xp] The Ancient World Eater is no ordinary creature, try attacking with more allies."
+        },
+        {
+          "day": 8,
+          "action": {
+            "type": "ATTACK",
+            "target": "golden-plains"
+          },
+          "summary": "[+5 food] Your clan emerged victorious against The Sunherd after fierce fighting."
         }
       ],
-      "message": "You join the hunt against a legendary foe, The Ancient World Eater\n[+3 xp] The Ancient World Eater is no ordinary creature, try attacking with more allies."
+      "message": "[+5 food] Your clan emerged victorious against The Sunherd after fierce fighting."
     }
   },
   "clans": {
@@ -789,9 +884,9 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 220,
-      "food": 108,
-      "gold": 75,
+      "wood": 235,
+      "food": 113,
+      "gold": 55,
       "defeatedBy": null,
       "bonus": {
         "wood": 15
@@ -803,7 +898,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 220,
+      "gold": 235,
       "bonus": {
         "gold": 15
       },
@@ -813,9 +908,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 140,
-      "food": 140,
-      "gold": 140,
+      "wood": 145,
+      "food": 145,
+      "gold": 145,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -827,8 +922,8 @@
       "id": "sunherd",
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
-      "wood": 100,
-      "food": 220,
+      "wood": 95,
+      "food": 230,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -841,7 +936,7 @@
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
       "wood": 115,
       "food": 145,
-      "gold": 160,
+      "gold": 175,
       "bonus": {},
       "defeatedBy": null
     }
@@ -856,16 +951,20 @@
         "bossName": "The Ancient World Eater",
         "message": "A colossal presence threatens to devour all at the Monster Base."
       }
+    },
+    {
+      "id": "boss_failed_ancient_world_eater_8",
+      "type": "BOSS_FAILED",
+      "day": 8,
+      "location": "The Wildrift",
+      "data": {
+        "bossName": "The Ancient World Eater",
+        "message": "The World Eater roars, hunger unfulfilled."
+      }
     }
   ],
   "activeModifiers": [],
-  "activeBoss": {
-    "bossId": "ancient_world_eater",
-    "locationId": "wildrift",
-    "appearedOn": 5,
-    "expiresOn": 8,
-    "participants": []
-  },
+  "activeBoss": null,
   "history": [
     {
       "day": 1,
@@ -929,6 +1028,20 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "Day 7 dawned, and the world held its breath beneath the silent gaze of ancient stars. No great tremors shook the land, nor did new legends unfold across its timeless canvas. Yet, a solitary flame of existence continued to flicker, a lone echo against the vast quietude."
+    },
+    {
+      "day": 8,
+      "population": 1,
+      "bossEvents": [
+        {
+          "name": "The Ancient World Eater",
+          "location": "The Wildrift",
+          "status": "FAILED",
+          "message": "The World Eater roars, hunger unfulfilled."
+        }
+      ],
+      "locationEvents": [],
+      "summary": "On the eighth day, the Ancient World Eater stirred once more within the desolate Wildrift. The titanic beast could not be quelled; its guttural roars echoed with an unfulfilled hunger, a dreadful sound across the realms. Thus, the cosmic terror lingers, its shadow still cast upon the world."
     }
   ]
 }
