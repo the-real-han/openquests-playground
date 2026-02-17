@@ -1,5 +1,5 @@
 {
-  "day": 10,
+  "day": 11,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -166,6 +166,22 @@
           ],
           "population": 1,
           "summary": "The Timberkeep had a productive day in Pinewood Grove. Harvesters discovered a significant surge of wood, greatly bolstering the clan's reserves."
+        },
+        {
+          "day": 10,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "The Timberkeep had a remarkably productive day at Pinewood Grove. A surge of wood was discovered, greatly enhancing the clan's vital supplies. The bountiful harvest solidified their presence in the ancient grove."
         }
       ]
     },
@@ -334,6 +350,22 @@
           ],
           "population": 0,
           "summary": "Day 9 at Goldforge Mine brought a welcome surprise for The Emberwatch. Miners unearthed a massive surge of gold from the deep veins, providing a significant boost to their coffers. This promising discovery ensures a period of increased prosperity for the clan."
+        },
+        {
+          "day": 10,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 10 brought prosperous tidings to the Goldforge Mine. The Emberwatch clan discovered a significant surge in gold veins within the mines. Dedicated efforts by the miners yielded a substantial bounty of the precious metal."
         }
       ]
     },
@@ -422,6 +454,14 @@
           "events": [],
           "population": 0,
           "summary": "A tranquil quiet settled over Harmony Fields today, as the gentle breeze rustled through the tall grasses. The Prismveil clan enjoyed a day of peaceful respite."
+        },
+        {
+          "day": 10,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "A gentle peace settled over Harmony Fields today. The Prismveil clan enjoyed a day of quiet contemplation, with the sun casting its warm glow upon the land. It was a calm and uneventful day, perfect for serene reflection."
         }
       ]
     },
@@ -590,6 +630,22 @@
           ],
           "population": 0,
           "summary": "Day 9 dawned over the Golden Plains, bringing with it a welcome turn of fortune. The Sunherd clan celebrated a significant surge in their food supplies. This unexpected abundance will greatly strengthen the clan's provisions and resolve."
+        },
+        {
+          "day": 10,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "On Day 10, the Golden Plains experienced a significant surge in food resources. This welcome abundance will surely strengthen the Sunherd clan."
         }
       ]
     },
@@ -758,6 +814,22 @@
           ],
           "population": 0,
           "summary": "Day 9 brought a welcome surge of resources to the Twilight Pits, as The Shardveil discovered a significant increase in wood. This unexpected bounty reinforced the clan's presence amidst the shadowed groves."
+        },
+        {
+          "day": 10,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 10 brought a welcome change to the Twilight Pits. The Shardveil clan discovered a sudden, bountiful surge of wood, an unexpected windfall that will greatly aid their endeavors. This significant increase in timber promises to bolster their strategic capabilities."
         }
       ]
     },
@@ -844,6 +916,13 @@
           "events": [],
           "population": 0,
           "summary": "The Wildrift saw no major battles or resource gains today. Clan members spent the day honing their skills and fortifying their defenses, a testament to their unwavering spirit and determination."
+        },
+        {
+          "day": 10,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "Day 10 in The Wildrift was remarkably peaceful. No significant events transpired, allowing the clan to focus on their daily tasks. It was a day for quiet industry and the anticipation of future triumphs."
         }
       ]
     }
@@ -862,7 +941,7 @@
         "titles": [],
         "backstory": "Once a warrior, now a wanderer, the monk walks the world seeking balance for every blow he once struck. He carries a single ember from his fallen temple — a flame he swore will never die until his heart truly finds peace.\nGitHub: @the-real-han\nCreated via OpenQuests UI",
         "level": 2,
-        "xp": 1,
+        "xp": 5,
         "clanId": "timberkeep"
       },
       "meta": {
@@ -880,20 +959,12 @@
         "playerLosses": 0,
         "monsterKilled": 0,
         "bossKilled": 0,
-        "monsterEncountered": 2,
+        "monsterEncountered": 3,
         "attackWinStreak": 2,
         "attackLoseStreak": 0,
         "attackedCount": 0
       },
       "history": [
-        {
-          "day": 1,
-          "action": {
-            "type": "EXPLORE",
-            "target": "pinewood-grove"
-          },
-          "summary": "[+5 gold] Your efforts uncovered modest treasure."
-        },
         {
           "day": 2,
           "action": {
@@ -957,9 +1028,17 @@
             "target": "wildrift"
           },
           "summary": "[+7 xp] The creature was relentless, but you held your ground.\n[LEVEL UP: 2]"
+        },
+        {
+          "day": 10,
+          "action": {
+            "type": "ATTACK",
+            "target": "wildrift"
+          },
+          "summary": "[+4 xp] The battle taught you humility — and survival."
         }
       ],
-      "message": "[+7 xp] The creature was relentless, but you held your ground.\n[LEVEL UP: 2]"
+      "message": "[+4 xp] The battle taught you humility — and survival."
     }
   },
   "clans": {
@@ -967,7 +1046,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 250,
+      "wood": 265,
       "food": 113,
       "gold": 55,
       "defeatedBy": null,
@@ -981,7 +1060,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 250,
+      "gold": 265,
       "bonus": {
         "gold": 15
       },
@@ -991,9 +1070,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 150,
-      "food": 150,
-      "gold": 150,
+      "wood": 155,
+      "food": 155,
+      "gold": 155,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -1006,7 +1085,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 95,
-      "food": 245,
+      "food": 260,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -1017,7 +1096,7 @@
       "id": "shardveil",
       "name": "The Shardveil",
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
-      "wood": 130,
+      "wood": 145,
       "food": 145,
       "gold": 175,
       "bonus": {},
@@ -1132,6 +1211,13 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "The ninth day passed in a hushed stillness, a breath held by the very fabric of creation. The world's solitary essence continued its quiet vigil, a single, unwavering point within the vast cosmic design. Though no grand events stirred the lands, the mere act of existence was a testament to enduring will."
+    },
+    {
+      "day": 10,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "The tenth dawn broke across the ancient lands, yet the world remained cloaked in a profound, unsettling stillness. A singular spark of life endured, a solitary heart beating against the silent canvas of an unfolding age."
     }
   ]
 }
