@@ -1,5 +1,5 @@
 {
-  "day": 14,
+  "day": 15,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -230,6 +230,22 @@
           ],
           "population": 1,
           "summary": "Pinewood Grove saw a welcome surge in resources today. The Timberkeep clan diligently gathered a significant amount of wood, ensuring their stores are plentiful. This valuable gain will prove crucial for the clan's ongoing projects and future prosperity."
+        },
+        {
+          "day": 14,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "Day 14 brought a notable surge of activity to Pinewood Grove. The Timberkeep clan experienced a significant increase in wood, bolstering their vital stores for the days ahead."
         }
       ]
     },
@@ -462,6 +478,22 @@
           ],
           "population": 0,
           "summary": "Day 13 at Goldforge Mine saw a significant surge in production. Miners working for The Emberwatch discovered a new vein, leading to a massive increase in gold output."
+        },
+        {
+          "day": 14,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 14 proved prosperous for The Emberwatch at Goldforge Mine. Their diligent efforts yielded a significant increase in gold, greatly bolstering the clan's valuable resources."
         }
       ]
     },
@@ -582,6 +614,14 @@
           "events": [],
           "population": 0,
           "summary": "A gentle peace settled over Harmony Fields today, as the sun graced the land with warmth. The Prismveil clan enjoyed a quiet day, tending to their needs without incident. It was a calm respite, allowing all to reflect and prepare for what lies ahead."
+        },
+        {
+          "day": 14,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Day 14 brought a tranquil peace to Harmony Fields. The sun shone brightly over the verdant pastures as The Prismveil clan enjoyed a day free from significant incident. A gentle breeze carried the scent of wildflowers, hinting at continued serenity."
         }
       ]
     },
@@ -814,6 +854,22 @@
           ],
           "population": 0,
           "summary": "On Day 13, a significant bounty of food was discovered across the Golden Plains. The Sunherd clan diligently gathered these newfound resources, ensuring their provisions are well-stocked. This surge of sustenance will greatly benefit the clan's continued prosperity."
+        },
+        {
+          "day": 14,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "A wave of natural bounty swept across the Golden Plains today. Explorers reported a significant surge in food, providing plentiful sustenance for the clan."
         }
       ]
     },
@@ -1046,6 +1102,22 @@
           ],
           "population": 0,
           "summary": "Day 13 brought a welcome turn of fortune to the Twilight Pits for The Shardveil. A remarkable surge of gold was discovered, enriching the clan's coffers. This unexpected bounty will surely bolster our efforts in the days to come."
+        },
+        {
+          "day": 14,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 14 brought a welcome shift to the Twilight Pits. The Shardveil clan discovered a surge of gold within the murky depths, an unexpected boon from the twisting passages. This newfound abundance will undoubtedly strengthen their resolve in the days ahead."
         }
       ]
     },
@@ -1160,6 +1232,13 @@
           "events": [],
           "population": 0,
           "summary": "Day 13 brought an unusual calm to The Wildrift. The turbulent winds subsided, replaced by a quiet stillness that settled over the rugged landscape. It was a day of peaceful contemplation, offering a welcome respite to all."
+        },
+        {
+          "day": 14,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "Day 14 in the Wildrift was a quiet one. The clan focused on their endeavors, and a significant increase in [largest gained resource] was noted, promising a brighter future."
         }
       ]
     }
@@ -1189,8 +1268,8 @@
         "gatherGoldCount": 1,
         "food": 3,
         "wood": 0,
-        "gold": 15,
-        "exploreCount": 3,
+        "gold": 20,
+        "exploreCount": 4,
         "attackCount": 2,
         "playerWins": 2,
         "playerLosses": 0,
@@ -1202,14 +1281,6 @@
         "attackedCount": 0
       },
       "history": [
-        {
-          "day": 5,
-          "action": {
-            "type": "ATTACK",
-            "target": "wildrift"
-          },
-          "summary": "The clan you sought has already fallen."
-        },
         {
           "day": 6,
           "action": {
@@ -1269,9 +1340,17 @@
         {
           "day": 13,
           "summary": ""
+        },
+        {
+          "day": 14,
+          "action": {
+            "type": "EXPLORE",
+            "target": "pinewood-grove"
+          },
+          "summary": "[+5 gold] You recovered some gold after a long search."
         }
       ],
-      "message": ""
+      "message": "[+5 gold] You recovered some gold after a long search."
     }
   },
   "clans": {
@@ -1279,9 +1358,9 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 310,
+      "wood": 325,
       "food": 108,
-      "gold": 55,
+      "gold": 60,
       "defeatedBy": null,
       "bonus": {
         "wood": 15
@@ -1293,7 +1372,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 310,
+      "gold": 325,
       "bonus": {
         "gold": 15
       },
@@ -1303,9 +1382,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 170,
-      "food": 170,
-      "gold": 170,
+      "wood": 175,
+      "food": 175,
+      "gold": 175,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -1318,7 +1397,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 95,
-      "food": 305,
+      "food": 320,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -1331,7 +1410,7 @@
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
       "wood": 145,
       "food": 145,
-      "gold": 220,
+      "gold": 235,
       "bonus": {},
       "defeatedBy": null
     }
@@ -1472,6 +1551,13 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "Day 13 dawned, a quiet echo in the unfolding saga of creation. No great beasts stirred from their slumber, nor did the ancient lands reveal new wonders. Yet, a solitary spark of life endured, a silent promise in the vast, untamed world."
+    },
+    {
+      "day": 14,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "Day 14 dawned upon the world, a breath held in quietude. Across the silent lands, a single mortal spirit continued its vigil, a solitary flame against the encroaching void. No ancient evils stirred, nor did the hallowed grounds whisper of new conflicts, leaving only the weight of existence upon that lone soul."
     }
   ]
 }
