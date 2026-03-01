@@ -1,5 +1,5 @@
 {
-  "day": 22,
+  "day": 23,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -358,6 +358,22 @@
           ],
           "population": 1,
           "summary": "Pinewood Grove was bustling today as The Timberkeep clan saw a significant increase in their wood reserves. This welcome surge will provide valuable materials for the clan's ongoing efforts."
+        },
+        {
+          "day": 22,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "Day 22 at Pinewood Grove brought good fortune to The Timberkeep. A significant surge of wood was discovered, providing a vital boost to their material reserves. The clansmen toiled diligently, ensuring the abundant timber was secured for future use."
         }
       ]
     },
@@ -718,6 +734,22 @@
           ],
           "population": 0,
           "summary": "The Emberwatch clan had a remarkably productive day at the Goldforge Mine. A significant surge of gold was discovered deep within the tunnels, promising great prosperity. The miners tirelessly extracted the gleaming ore, ensuring a bountiful harvest for the clan."
+        },
+        {
+          "day": 22,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 22 at Goldforge Mine was incredibly fruitful for The Emberwatch. Deep within the earth, miners uncovered a tremendous surge of gold. This rich discovery promises great prosperity for the clan."
         }
       ]
     },
@@ -902,6 +934,14 @@
           "events": [],
           "population": 0,
           "summary": "Harmony Fields basked in a gentle peace today. The wind whispered through the tall grasses, carrying no tidings of conflict or grand discovery. It was a day for quiet reflection and simple appreciation of the land."
+        },
+        {
+          "day": 22,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Harmony Fields experienced a calm and peaceful day. The sun shone brightly over the fertile lands, allowing the members of The Prismveil to go about their daily tasks undisturbed."
         }
       ]
     },
@@ -1254,6 +1294,22 @@
           ],
           "population": 0,
           "summary": "On Day 21, the Golden Plains saw a significant surge in food resources for The Sunherd. The land proved bountiful, providing a wealth of provisions to sustain the clan. This abundance ensures a period of prosperity and strength for The Sunherd."
+        },
+        {
+          "day": 22,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 22 brought prosperity to the Golden Plains. The Sunherd clan discovered a massive surge of food, ensuring their larders are now overflowing. This abundance provides a strong foundation for the days ahead."
         }
       ]
     },
@@ -1606,6 +1662,22 @@
           ],
           "population": 0,
           "summary": "Day 21 brought a welcome surge of prosperity to the Twilight Pits. The Shardveil clan discovered abundant food within the murky depths. This significant increase in provisions promises continued sustenance and strength for the days ahead."
+        },
+        {
+          "day": 22,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 22 at the Twilight Pits brought a welcome surge of gold. This newfound wealth promises to bolster The Shardveil's strength and ambitions."
         }
       ]
     },
@@ -1784,6 +1856,21 @@
           ],
           "population": 0,
           "summary": "The Wildrift quakes as a malevolent presence descends upon the land. The Twilight Covenant, a dark entity bound by ancient ritual, has manifested. Its arrival casts a long shadow, signaling a perilous new chapter for all who dwell here."
+        },
+        {
+          "day": 22,
+          "location": "The Wildrift",
+          "events": [
+            {
+              "type": "BOSS_APPEARED",
+              "data": {
+                "bossName": "The Twilight Covenant",
+                "message": "Shadows gather — a pact of ancient beings forms."
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 22 brought a chilling revelation to The Wildrift. The Twilight Covenant, a formidable pact of ancient beings, emerged from the deepening shadows. Their appearance signals a dire new challenge for all who reside here."
         }
       ]
     }
@@ -1826,10 +1913,6 @@
         "attackedCount": 0
       },
       "history": [
-        {
-          "day": 13,
-          "summary": ""
-        },
         {
           "day": 14,
           "action": {
@@ -1893,9 +1976,17 @@
             "target": "wildrift"
           },
           "summary": "[-NaN food] A sharp instinct saved you from disaster."
+        },
+        {
+          "day": 22,
+          "action": {
+            "type": "WAIT",
+            "target": ""
+          },
+          "summary": "You take a moment to observe. When you act again, the world will answer."
         }
       ],
-      "message": "[-NaN food] A sharp instinct saved you from disaster."
+      "message": "You take a moment to observe. When you act again, the world will answer."
     }
   },
   "clans": {
@@ -1903,7 +1994,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 430,
+      "wood": 445,
       "food": null,
       "gold": 20,
       "defeatedBy": null,
@@ -1917,7 +2008,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 430,
+      "gold": 445,
       "bonus": {
         "gold": 15
       },
@@ -1927,9 +2018,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 210,
-      "food": 210,
-      "gold": 210,
+      "wood": 215,
+      "food": 215,
+      "gold": 215,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -1942,7 +2033,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 89,
-      "food": 418,
+      "food": 433,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -1955,7 +2046,7 @@
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
       "wood": 185,
       "food": 169,
-      "gold": 265,
+      "gold": 280,
       "bonus": {},
       "defeatedBy": null
     }
@@ -2175,6 +2266,13 @@
       ],
       "locationEvents": [],
       "summary": "**World Log: Day 21**\n\nAs the twenty-first sun climbed, a new shadow was cast across the Wildrift. There, amidst the ancient wilderness, the Twilight Covenant manifested. Born of dark ritual, its appearance marked a chilling accord with the deeper powers of the world."
+    },
+    {
+      "day": 22,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "Day 22: The world turned again, a silent gyre beneath an ancient sun. Across the vast lands, a singular life stirred, its spirit the sole pulse in a nascent dominion. The silent ages watched, awaiting the unfolding of destiny."
     }
   ]
 }
