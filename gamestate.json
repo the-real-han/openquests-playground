@@ -1,5 +1,5 @@
 {
-  "day": 25,
+  "day": 26,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -406,6 +406,22 @@
           ],
           "population": 1,
           "summary": "Day 24 at Pinewood Grove was prosperous for The Timberkeep. A significant surge in wood resources allowed the clan to gather a large amount, greatly bolstering their supplies."
+        },
+        {
+          "day": 25,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "Pinewood Grove experienced a bountiful day as the Timberkeep clan saw a significant surge in their wood supplies. The groves yielded generously, bolstering the clan's resources. This increase will undoubtedly aid in future endeavors."
         }
       ]
     },
@@ -814,6 +830,22 @@
           ],
           "population": 0,
           "summary": "Day 24 at Goldforge Mine saw a remarkable find. Miners struck a new vein deep within the earth, leading to a significant surge of gold. This rich discovery promises great prosperity for our clan."
+        },
+        {
+          "day": 25,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 25 at the Goldforge Mine brought exciting news for The Emberwatch clan. Miners uncovered a significant new vein, leading to a substantial surge in gold resources."
         }
       ]
     },
@@ -1022,6 +1054,14 @@
           "events": [],
           "population": 0,
           "summary": "Harmony Fields enjoyed another tranquil day under the watchful eye of The Prismveil. Gentle breezes rustled through the lush flora, promising continued peace and growth for the clan's endeavors."
+        },
+        {
+          "day": 25,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Harmony Fields enjoyed a tranquil Day 25, bathed in the soft sunlight. The gentle breezes carried the scent of wildflowers across the fertile land, offering a moment of respite to Clan Prismveil. It was a day of quiet industry and peaceful reflection."
         }
       ]
     },
@@ -1422,6 +1462,22 @@
           ],
           "population": 0,
           "summary": "On Day 24, a bountiful surge of food enriched the Golden Plains. This welcome abundance will undoubtedly strengthen the Sunherd clan's resolve."
+        },
+        {
+          "day": 25,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 25 in the Golden Plains brought a welcome surge of food for The Sunherd clan. The bountiful harvest ensured provisions for all, a sign of the land's continued generosity. It was a day of fortunate abundance."
         }
       ]
     },
@@ -1822,6 +1878,22 @@
           ],
           "population": 0,
           "summary": "Day 24 brought good fortune to The Shardveil clan at the Twilight Pits. A bountiful surge of food was discovered, promising sustenance and strength."
+        },
+        {
+          "day": 25,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "On Day 25, a significant discovery was made in the Twilight Pits. The Shardveil clan unearthed a substantial vein of gold, greatly enriching their resources. This unexpected surge brings renewed promise to the clan's future endeavors."
         }
       ]
     },
@@ -2045,6 +2117,13 @@
           ],
           "population": 0,
           "summary": "The Twilight Covenant has finally disappeared from The Wildrift. The ancient ritual proved successful, ensuring the Covenant remains intact and its threat is contained."
+        },
+        {
+          "day": 25,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "The Wildrift remained peaceful today, a quiet calm settling over the land. A gentle breeze whispered through the ancient canyons, carrying the scent of wild herbs. The day passed without any significant events, offering a welcome respite."
         }
       ]
     }
@@ -2087,14 +2166,6 @@
         "attackedCount": 0
       },
       "history": [
-        {
-          "day": 16,
-          "action": {
-            "type": "WAIT",
-            "target": ""
-          },
-          "summary": "You take a moment to observe. When you act again, the world will answer."
-        },
         {
           "day": 17,
           "action": {
@@ -2158,6 +2229,14 @@
             "target": ""
           },
           "summary": "You take a moment to observe. When you act again, the world will answer."
+        },
+        {
+          "day": 25,
+          "action": {
+            "type": "WAIT",
+            "target": ""
+          },
+          "summary": "You take a moment to observe. When you act again, the world will answer."
         }
       ],
       "message": "You take a moment to observe. When you act again, the world will answer."
@@ -2168,7 +2247,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 475,
+      "wood": 490,
       "food": null,
       "gold": 20,
       "defeatedBy": null,
@@ -2182,7 +2261,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 475,
+      "gold": 490,
       "bonus": {
         "gold": 15
       },
@@ -2192,9 +2271,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 225,
-      "food": 225,
-      "gold": 225,
+      "wood": 230,
+      "food": 230,
+      "gold": 230,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -2207,7 +2286,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 89,
-      "food": 463,
+      "food": 478,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -2220,7 +2299,7 @@
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
       "wood": 200,
       "food": 184,
-      "gold": 280,
+      "gold": 295,
       "bonus": {},
       "defeatedBy": null
     }
@@ -2472,6 +2551,13 @@
       ],
       "locationEvents": [],
       "summary": "On Day 24, a profound shift rippled through the land. Within the treacherous expanse of The Wildrift, The Twilight Covenant, a veiled power, inexplicably disappeared from mortal sight. Yet, ancient whispers persist, affirming that the ritual holds, and the Covenant itself remains intact, its essence undisturbed."
+    },
+    {
+      "day": 25,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "On the twenty-fifth day, the veil of dawn lifted over a world steeped in profound calm. No great tremors shook the earth, nor ancient powers stirred from their slumber. Yet, a solitary will endured, a single spark preserving the hope of ages as the cosmos continued its silent watch."
     }
   ]
 }
