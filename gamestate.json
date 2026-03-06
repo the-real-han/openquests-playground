@@ -1,5 +1,5 @@
 {
-  "day": 27,
+  "day": 28,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -438,6 +438,22 @@
           ],
           "population": 1,
           "summary": "A bountiful surge of resources blessed Pinewood Grove today. The Timberkeep clan discovered a significant increase in wood supplies, bolstering their reserves. This valuable gain will undoubtedly aid in their ongoing projects."
+        },
+        {
+          "day": 27,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 20
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "Day 27 at Pinewood Grove proved to be a productive one for The Timberkeep. A significant surge of wood was gathered from the ancient trees, bolstering their reserves. This valuable bounty will surely aid in their ongoing endeavors."
         }
       ]
     },
@@ -878,6 +894,22 @@
           ],
           "population": 0,
           "summary": "Day 26 saw a significant boost in operations at the Goldforge Mine. The Emberwatch clan successfully unearthed a substantial surge of gold from the deep veins. This bounty greatly replenished the clan's resources, marking a productive day."
+        },
+        {
+          "day": 27,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 27 brought great fortune to Goldforge Mine. The Emberwatch clan unearthed a vast new seam of gold, leading to a substantial surge in the precious metal. This fortunate find greatly bolstered the clan's resources."
         }
       ]
     },
@@ -1102,6 +1134,14 @@
           "events": [],
           "population": 0,
           "summary": "Harmony Fields enjoyed a day of quiet peace. Gentle breezes carried the scent of wild herbs across the plains, bringing a sense of calm to all who resided there."
+        },
+        {
+          "day": 27,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Harmony Fields enjoyed another tranquil day under the watchful eyes of The Prismveil. The gentle breezes carried the scent of blooming wildflowers across the land. It was a day of peace and quiet, allowing all to appreciate the beauty of their home."
         }
       ]
     },
@@ -1534,6 +1574,22 @@
           ],
           "population": 0,
           "summary": "On Day 26, the Golden Plains experienced a bountiful surge for The Sunherd clan. Their food reserves increased significantly, ensuring sustenance for all."
+        },
+        {
+          "day": 27,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 27 brought a welcome bounty to the Golden Plains. The Sunherd clan celebrated as their food resources saw a significant and sustaining surge, promising strength for the days ahead."
         }
       ]
     },
@@ -1966,6 +2022,22 @@
           ],
           "population": 0,
           "summary": "Day 26 at the Twilight Pits saw a significant surge in resources for The Shardveil clan. An unexpected abundance of wood was discovered, providing ample materials for their ongoing endeavors."
+        },
+        {
+          "day": 27,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 27 brought good fortune to the Twilight Pits. The Shardveil clan discovered a significant surge of wood, allowing them to gather abundant timber for their needs."
         }
       ]
     },
@@ -2203,6 +2275,21 @@
           "events": [],
           "population": 0,
           "summary": "The Wildrift experienced a rare day of quiet today. The usual turbulent winds were still, and the echoes of ancient magic lay dormant across the land. It was a peaceful respite amidst the rugged beauty of the rifts."
+        },
+        {
+          "day": 27,
+          "location": "The Wildrift",
+          "events": [
+            {
+              "type": "BOSS_APPEARED",
+              "data": {
+                "bossName": "The Crystal Serpent",
+                "message": "A gleaming serpent coils through the Monster Base, scales like glass."
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "On Day 27, a new and formidable presence emerged within The Wildrift. The Crystal Serpent, a gleaming creature with scales like glass, has appeared and now coils through the Monster Base. Its arrival marks a significant challenge for all within the region."
         }
       ]
     }
@@ -2231,9 +2318,9 @@
         "gatherWoodCount": 0,
         "gatherGoldCount": 1,
         "food": 3,
-        "wood": 0,
+        "wood": 5,
         "gold": 20,
-        "exploreCount": 6,
+        "exploreCount": 7,
         "attackCount": 4,
         "playerWins": 4,
         "playerLosses": 0,
@@ -2245,14 +2332,6 @@
         "attackedCount": 0
       },
       "history": [
-        {
-          "day": 18,
-          "action": {
-            "type": "WAIT",
-            "target": ""
-          },
-          "summary": "You take a moment to observe. When you act again, the world will answer."
-        },
         {
           "day": 19,
           "action": {
@@ -2316,9 +2395,17 @@
             "target": "wildrift"
           },
           "summary": "[+8 xp] Safe but weary, you retreated after a fierce exchange of blows."
+        },
+        {
+          "day": 27,
+          "action": {
+            "type": "EXPLORE",
+            "target": "wildrift"
+          },
+          "summary": "[+5 wood] Your steady work brought back a fair haul."
         }
       ],
-      "message": "[+8 xp] Safe but weary, you retreated after a fierce exchange of blows."
+      "message": "[+5 wood] Your steady work brought back a fair haul."
     }
   },
   "clans": {
@@ -2326,7 +2413,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 505,
+      "wood": 525,
       "food": null,
       "gold": 20,
       "defeatedBy": null,
@@ -2340,7 +2427,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 505,
+      "gold": 520,
       "bonus": {
         "gold": 15
       },
@@ -2350,9 +2437,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 235,
-      "food": 235,
-      "gold": 235,
+      "wood": 240,
+      "food": 240,
+      "gold": 240,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -2365,7 +2452,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 89,
-      "food": 493,
+      "food": 508,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -2376,7 +2463,7 @@
       "id": "shardveil",
       "name": "The Shardveil",
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
-      "wood": 215,
+      "wood": 230,
       "food": 184,
       "gold": 295,
       "bonus": {},
@@ -2423,10 +2510,26 @@
         "bossName": "The Twilight Covenant",
         "message": "The ritual holds — the Covenant remains intact."
       }
+    },
+    {
+      "id": "boss_appeared_crystal_serpent_27",
+      "type": "BOSS_APPEARED",
+      "day": 27,
+      "location": "The Wildrift",
+      "data": {
+        "bossName": "The Crystal Serpent",
+        "message": "A gleaming serpent coils through the Monster Base, scales like glass."
+      }
     }
   ],
   "activeModifiers": [],
-  "activeBoss": null,
+  "activeBoss": {
+    "bossId": "crystal_serpent",
+    "locationId": "wildrift",
+    "appearedOn": 27,
+    "expiresOn": 29,
+    "participants": []
+  },
   "history": [
     {
       "day": 1,
@@ -2644,6 +2747,20 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "The twenty-sixth dawn rose, painting the world in hues of quietude. No great beast stirred, nor ancient power awoke from its slumber across the land. On such a day, the very air hums with untold potential, waiting for the threads of fate to be woven anew."
+    },
+    {
+      "day": 27,
+      "population": 1,
+      "bossEvents": [
+        {
+          "name": "The Crystal Serpent",
+          "location": "The Wildrift",
+          "status": "APPEARED",
+          "message": "A gleaming serpent coils through the Monster Base, scales like glass."
+        }
+      ],
+      "locationEvents": [],
+      "summary": "As the twenty-seventh day dawned, a new and terrible beauty manifested within The Wildrift. The Crystal Serpent, a creature of gleaming scales like glass, now coils through the heart of the Monster Base. Its sudden emergence heralds an age of crystalline danger."
     }
   ]
 }
