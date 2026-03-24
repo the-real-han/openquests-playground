@@ -1,5 +1,5 @@
 {
-  "day": 45,
+  "day": 46,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -726,6 +726,22 @@
           ],
           "population": 1,
           "summary": "Day 44 saw a bountiful surge in resources at Pinewood Grove for The Timberkeep. The diligent efforts of the clan were rewarded with a significant increase in wood. This unexpected bounty will undoubtedly strengthen their position and aid future endeavors."
+        },
+        {
+          "day": 45,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "At Pinewood Grove, The Timberkeep experienced a productive day. A significant surge of wood was gathered, bolstering the clan's resources."
         }
       ]
     },
@@ -1454,6 +1470,22 @@
           ],
           "population": 0,
           "summary": "A welcome discovery was made at the Goldforge Mine on Day 44. The Emberwatch clan unearthed a significant surge of gold, providing a valuable boost to our resource reserves."
+        },
+        {
+          "day": 45,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 45 at Goldforge Mine proved to be a lucrative one for The Emberwatch. Miners unearthed a rich new vein deep within the tunnels, leading to a significant surge of gold. This promising discovery bolsters the clan's fortunes and spirits alike."
         }
       ]
     },
@@ -1822,6 +1854,14 @@
           "events": [],
           "population": 0,
           "summary": "Day 44 brought a profound sense of tranquility to Harmony Fields. The Prismveil clan experienced a calm and peaceful day, appreciating the quiet beauty of their surroundings."
+        },
+        {
+          "day": 45,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Day 45 dawned peacefully over Harmony Fields. The sun warmed the land, and a gentle breeze rustled through the tall grasses, signaling a tranquil day. It was a quiet period, ideal for quiet contemplation and enjoying the serene beauty of the plains."
         }
       ]
     },
@@ -2542,6 +2582,22 @@
           ],
           "population": 0,
           "summary": "The Golden Plains saw a bountiful day for The Sunherd. A significant surge of food was discovered, greatly enriching the clan's provisions. The land truly blessed their efforts, ensuring ample sustenance for the days ahead."
+        },
+        {
+          "day": 45,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 45 saw a bountiful harvest across the Golden Plains for The Sunherd clan. A significant surge of food was discovered throughout their territory. This unexpected abundance greatly bolsters the clan's provisions, ensuring a well-fed future."
         }
       ]
     },
@@ -3262,6 +3318,22 @@
           ],
           "population": 0,
           "summary": "Day 44 brought a fortunate turn to the Twilight Pits as The Shardveil discovered a significant surge of gold. This valuable find promises to bolster the clan's resources and further their endeavors."
+        },
+        {
+          "day": 45,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 45 at the Twilight Pits brought good fortune to The Shardveil clan. A substantial surge of wood was gathered, replenishing their vital reserves."
         }
       ]
     },
@@ -3649,6 +3721,13 @@
           "events": [],
           "population": 0,
           "summary": "The Wildrift experienced a day of unusual calm. The treacherous canyons echoed with only the whispering winds, undisturbed by conflict or strife. It was a day of quiet respite, allowing the land to breathe."
+        },
+        {
+          "day": 45,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "Day 45 unfolded serenely across The Wildrift. The air remained still, and no major tremors or disturbances marred the tranquil landscape. It was a day of quiet observation, with the ancient land holding its breath in peaceful repose."
         }
       ]
     }
@@ -3691,14 +3770,6 @@
         "attackedCount": 0
       },
       "history": [
-        {
-          "day": 36,
-          "action": {
-            "type": "WAIT",
-            "target": ""
-          },
-          "summary": "You take a moment to observe. When you act again, the world will answer."
-        },
         {
           "day": 37,
           "action": {
@@ -3762,6 +3833,14 @@
             "target": ""
           },
           "summary": "You take a moment to observe. When you act again, the world will answer."
+        },
+        {
+          "day": 45,
+          "action": {
+            "type": "WAIT",
+            "target": ""
+          },
+          "summary": "You take a moment to observe. When you act again, the world will answer."
         }
       ],
       "message": "You take a moment to observe. When you act again, the world will answer."
@@ -3772,7 +3851,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 780,
+      "wood": 795,
       "food": null,
       "gold": 20,
       "defeatedBy": null,
@@ -3786,7 +3865,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 775,
+      "gold": 790,
       "bonus": {
         "gold": 15
       },
@@ -3796,9 +3875,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 325,
-      "food": 325,
-      "gold": 325,
+      "wood": 330,
+      "food": 330,
+      "gold": 330,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -3811,7 +3890,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 89,
-      "food": 763,
+      "food": 778,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -3822,7 +3901,7 @@
       "id": "shardveil",
       "name": "The Shardveil",
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
-      "wood": 320,
+      "wood": 335,
       "food": 229,
       "gold": 415,
       "bonus": {},
@@ -4250,6 +4329,13 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "Day 44 found the world in a profound stillness. A singular echo of life persisted, a lone spark against the backdrop of ancient lands. The very air seemed to pause, awaiting the weaving of new destinies into the tapestry of existence."
+    },
+    {
+      "day": 45,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "The forty-fifth sun ascended, casting its familiar glow upon the lands. No ancient evils stirred from their slumber, nor did new conflicts erupt to mar the stillness. Across the realm, the breath of existence continued its slow, measured rhythm, hinting at unseen forces yet to awaken."
     }
   ]
 }
