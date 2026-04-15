@@ -1,5 +1,5 @@
 {
-  "day": 67,
+  "day": 68,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -1078,6 +1078,22 @@
           ],
           "population": 1,
           "summary": "At Pinewood Grove on Day 66, a valuable surge of wood was discovered, bolstering the clan's reserves. The Timberkeep clan now has ample resources to fuel their ongoing projects and construction. This timely bounty ensures their continued progress and prosperity."
+        },
+        {
+          "day": 67,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "Day 67 at Pinewood Grove brought good tidings for The Timberkeep. A substantial surge of wood was discovered, providing a welcome bounty. This unexpected increase in resources will surely bolster the clan's efforts."
         }
       ]
     },
@@ -2158,6 +2174,22 @@
           ],
           "population": 0,
           "summary": "Day 66 at Goldforge Mine saw a significant surge in production for The Emberwatch. Miners unearthed a rich vein, greatly increasing the reserves of gold. The glint of precious metal filled the tunnels, promising continued prosperity."
+        },
+        {
+          "day": 67,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 67 brought good fortune to Goldforge Mine. Miners unearthed a rich vein, revealing a welcome surge of precious gold. This discovery significantly boosted the mine's valuable resource reserves."
         }
       ]
     },
@@ -2702,6 +2734,14 @@
           "events": [],
           "population": 0,
           "summary": "A peaceful quiet settled over Harmony Fields today, as the sun graced the land with warmth. The gentle breezes rustled through the tall grasses, marking another serene day for The Prismveil."
+        },
+        {
+          "day": 67,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Harmony Fields experienced a tranquil day under the watchful care of The Prismveil. A serene quiet settled over the lands, offering a peaceful reprieve."
         }
       ]
     },
@@ -3774,6 +3814,22 @@
           ],
           "population": 0,
           "summary": "On Day 66, a wave of prosperity washed over the Golden Plains, enriching The Sunherd clan. The lands yielded a significant bounty, leading to a substantial increase in their food reserves."
+        },
+        {
+          "day": 67,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 67 saw a prosperous turn in the Golden Plains for The Sunherd. The fertile lands generously provided a significant surge in food, bolstering the clan's provisions."
         }
       ]
     },
@@ -4846,6 +4902,22 @@
           ],
           "population": 0,
           "summary": "Day 66 at the Twilight Pits brought good fortune for The Shardveil clan. The deep caverns yielded a substantial surge of food. This unexpected bounty provides much-needed sustenance for the clan."
+        },
+        {
+          "day": 67,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "On Day 67, the Twilight Pits saw a welcome turn of fortune for The Shardveil clan. The depths of the mines yielded a significant surge of gold, enriching their stores. This unexpected bounty promises strength for the days ahead."
         }
       ]
     },
@@ -5387,6 +5459,13 @@
           "events": [],
           "population": 0,
           "summary": "Day 66 at The Wildrift was marked by an uncommon tranquility. The winds whispered softly through the canyons, and the usual distant rumblings were absent. It was a day of quiet observation, with no major events stirring the ancient land."
+        },
+        {
+          "day": 67,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "The Wildrift was unusually quiet today. A gentle breeze stirred the ancient trees, and the only sounds were the distant calls of wild creatures. It was a day of rare tranquility, offering a moment of respite from the usual dangers of the land."
         }
       ]
     }
@@ -5429,14 +5508,6 @@
         "attackedCount": 0
       },
       "history": [
-        {
-          "day": 58,
-          "action": {
-            "type": "WAIT",
-            "target": ""
-          },
-          "summary": "You take a moment to observe. When you act again, the world will answer."
-        },
         {
           "day": 59,
           "action": {
@@ -5500,6 +5571,14 @@
             "target": ""
           },
           "summary": "You take a moment to observe. When you act again, the world will answer."
+        },
+        {
+          "day": 67,
+          "action": {
+            "type": "WAIT",
+            "target": ""
+          },
+          "summary": "You take a moment to observe. When you act again, the world will answer."
         }
       ],
       "message": "You take a moment to observe. When you act again, the world will answer."
@@ -5510,7 +5589,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 1110,
+      "wood": 1125,
       "food": null,
       "gold": 20,
       "defeatedBy": null,
@@ -5524,7 +5603,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 1105,
+      "gold": 1120,
       "bonus": {
         "gold": 15
       },
@@ -5534,9 +5613,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 435,
-      "food": 435,
-      "gold": 435,
+      "wood": 440,
+      "food": 440,
+      "gold": 440,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -5549,7 +5628,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 89,
-      "food": 1093,
+      "food": 1108,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -5562,7 +5641,7 @@
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
       "wood": 455,
       "food": 334,
-      "gold": 505,
+      "gold": 520,
       "bonus": {},
       "defeatedBy": null
     }
@@ -6142,6 +6221,13 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "The sixty-sixth dawn broke, a quiet promise over lands where a solitary spirit stirred. No great conflicts erupted, nor did ancient powers awaken; the world simply breathed, an unfolding myth awaiting its next verse."
+    },
+    {
+      "day": 67,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "Day 67 emerged from the deep, a quiet breath across the ancient lands. No great tides of destiny surged, nor did the slumbering powers awaken from their long vigil. Yet, a single, unwavering flame of life continued to burn, a solitary beacon in the vast, expectant world."
     }
   ]
 }
