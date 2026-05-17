@@ -1,5 +1,5 @@
 {
-  "day": 99,
+  "day": 100,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -1590,6 +1590,22 @@
           ],
           "population": 1,
           "summary": "Day 98 brought a welcome bounty to Pinewood Grove. The Timberkeep clan experienced a significant surge in wood, bolstering their reserves considerably. This newfound abundance will undoubtedly aid their ongoing efforts and construction."
+        },
+        {
+          "day": 99,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "Day 99 brought good fortune to Pinewood Grove and The Timberkeep clan. A significant surge of wood was gathered from the surrounding forest, greatly bolstering the clan's reserves. This bountiful harvest promises strong foundations for future endeavors."
         }
       ]
     },
@@ -3182,6 +3198,22 @@
           ],
           "population": 0,
           "summary": "At Goldforge Mine on Day 98, The Emberwatch discovered a significant surge of gold within its depths. This unexpected bounty promises a period of prosperity and growth for the clan."
+        },
+        {
+          "day": 99,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 99 at Goldforge Mine brought exciting news for The Emberwatch. Miners uncovered a substantial surge of gold within the deep veins of the earth. This significant discovery promises renewed prosperity for the clan."
         }
       ]
     },
@@ -3982,6 +4014,14 @@
           "events": [],
           "population": 0,
           "summary": "Day 98 was a peaceful one in Harmony Fields. A gentle breeze swept across the plains, bringing a sense of calm to the lands. The Prismveil clan enjoyed a quiet day, undisturbed by any significant happenings."
+        },
+        {
+          "day": 99,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Day 99 at Harmony Fields was exceptionally peaceful for The Prismveil. Gentle breezes swept across the open fields, carrying the scent of blooming wildflowers. It was a quiet day, marked only by the serene tranquility of the land."
         }
       ]
     },
@@ -5566,6 +5606,22 @@
           ],
           "population": 0,
           "summary": "On Day 98, the Golden Plains blessed The Sunherd with a welcome bounty. A significant surge in food supplies bolstered the clan's stores. This ensured a period of greater security for the Sunherd clan."
+        },
+        {
+          "day": 99,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 99 brought a remarkable surge in food resources across the Golden Plains. The Sunherd clan rejoiced in this unexpected bounty, which promised to strengthen their reserves. It was a day of prosperity and renewed hope for the clan."
         }
       ]
     },
@@ -7150,6 +7206,22 @@
           ],
           "population": 0,
           "summary": "The Shardveil clan celebrated a surge in their wood reserves today. It was a day of quiet prosperity in the Twilight Pits."
+        },
+        {
+          "day": 99,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "On Day 99, a significant surge of wood blessed the Twilight Pits. The Shardveil clan diligently gathered the newfound timber, bolstering their vital reserves. This unexpected bounty provides ample materials for the challenges ahead."
         }
       ]
     },
@@ -7915,6 +7987,13 @@
           "events": [],
           "population": 0,
           "summary": "Day 98 saw a quiet calm settle over The Wildrift. The rugged landscape basked peacefully under a clear sky, offering a day of rest and reflection for all who dwell within its borders."
+        },
+        {
+          "day": 99,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "Day 99 brought a rare tranquility to the heart of the Wildrift. The usual whispers of ancient magic and the distant howls of beasts were subdued, replaced by a peaceful calm. It was a day of quietude, offering a much-needed respite from the customary dangers of the land."
         }
       ]
     }
@@ -7957,14 +8036,6 @@
         "attackedCount": 0
       },
       "history": [
-        {
-          "day": 90,
-          "action": {
-            "type": "WAIT",
-            "target": ""
-          },
-          "summary": "You take a moment to observe. When you act again, the world will answer."
-        },
         {
           "day": 91,
           "action": {
@@ -8028,6 +8099,14 @@
             "target": ""
           },
           "summary": "You take a moment to observe. When you act again, the world will answer."
+        },
+        {
+          "day": 99,
+          "action": {
+            "type": "WAIT",
+            "target": ""
+          },
+          "summary": "You take a moment to observe. When you act again, the world will answer."
         }
       ],
       "message": "You take a moment to observe. When you act again, the world will answer."
@@ -8038,7 +8117,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 1590,
+      "wood": 1605,
       "food": null,
       "gold": 20,
       "defeatedBy": null,
@@ -8052,7 +8131,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 1585,
+      "gold": 1600,
       "bonus": {
         "gold": 15
       },
@@ -8062,9 +8141,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 595,
-      "food": 595,
-      "gold": 595,
+      "wood": 600,
+      "food": 600,
+      "gold": 600,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -8077,7 +8156,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 89,
-      "food": 1573,
+      "food": 1588,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -8088,7 +8167,7 @@
       "id": "shardveil",
       "name": "The Shardveil",
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
-      "wood": 635,
+      "wood": 650,
       "food": 424,
       "gold": 715,
       "bonus": {},
@@ -8894,6 +8973,13 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "Day 98 unfolded under a sky undisturbed by great omens or mighty clashes. The ancient lands lay still, holding their breath as they had for countless ages. Yet, the solitary flame of existence continued to flicker, a beacon of enduring life against the vast emptiness."
+    },
+    {
+      "day": 99,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "On this ninety-ninth day, the world held its breath in silent anticipation, its vastness home to but a solitary spark of life. No ancient evils rose, nor hidden lands stirred from their slumber, leaving only the quiet testament of a singular, enduring spirit."
     }
   ]
 }
