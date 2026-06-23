@@ -1,5 +1,5 @@
 {
-  "day": 136,
+  "day": 137,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -2182,6 +2182,22 @@
           ],
           "population": 1,
           "summary": "Day 135 at Pinewood Grove was marked by prosperity for The Timberkeep clan. A significant surge in wood was gathered, bolstering their resources and ensuring ample supplies for future endeavors."
+        },
+        {
+          "day": 136,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "Unable to generate location summary"
         }
       ]
     },
@@ -4366,6 +4382,22 @@
           ],
           "population": 0,
           "summary": "Day 135 at Goldforge Mine proved to be a lucrative day for The Emberwatch clan. Miners uncovered a significant new vein, leading to a surge in gold production. This substantial increase in gold greatly bolstered the clan's resources."
+        },
+        {
+          "day": 136,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 136 saw a productive effort at Goldforge Mine. Miners working for The Emberwatch clan unearthed a significant surge of gold within its depths. This rich vein promises continued prosperity for the clan."
         }
       ]
     },
@@ -5462,6 +5494,14 @@
           "events": [],
           "population": 0,
           "summary": "Harmony Fields enjoyed a tranquil Day 135. The gentle breezes carried the scent of blooming flowers across the land, offering a peaceful respite. May this calm day bring renewed energy and resolve to all of The Prismveil clan."
+        },
+        {
+          "day": 136,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Harmony Fields enjoyed a tranquil day under the gentle sun. No major events or challenges arose, allowing the members of The Prismveil to tend to their duties in peace."
         }
       ]
     },
@@ -7638,6 +7678,22 @@
           ],
           "population": 0,
           "summary": "The Golden Plains flourished today with a significant surge in food resources. This unexpected bounty provides a vital boon for The Sunherd clan, ensuring their continued strength and prosperity."
+        },
+        {
+          "day": 136,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 136 brought a welcome surge of vitality to the Golden Plains. The Sunherd clan celebrated a significant increase in their food stores, ensuring plentiful sustenance for all."
         }
       ]
     },
@@ -9814,6 +9870,22 @@
           ],
           "population": 0,
           "summary": "At the Twilight Pits on Day 135, a significant surge of gold was discovered within the deep veins. This welcome influx of resources bolsters the strength and prospects of The Shardveil clan."
+        },
+        {
+          "day": 136,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "On Day 136, the Twilight Pits saw a remarkable upturn in fortunes for The Shardveil. Miners working deep within the caverns unearthed a substantial vein of gold, ensuring prosperous days ahead."
         }
       ]
     },
@@ -10838,6 +10910,13 @@
           "events": [],
           "population": 0,
           "summary": "Day 135 in The Wildrift unfolded with a rare and welcome calm. The ancient trees stood sentinel under a peaceful sky, and the rivers flowed serenely through the canyons. It was a day for quiet contemplation and renewal, as the land itself seemed to breathe a sigh of content."
+        },
+        {
+          "day": 136,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "The Wildrift experienced a day of quiet stillness. The air was calm, and the lands lay undisturbed beneath a peaceful sky, offering a brief respite from the usual challenges."
         }
       ]
     }
@@ -10880,14 +10959,6 @@
         "attackedCount": 0
       },
       "history": [
-        {
-          "day": 127,
-          "action": {
-            "type": "WAIT",
-            "target": ""
-          },
-          "summary": "You take a moment to observe. When you act again, the world will answer."
-        },
         {
           "day": 128,
           "action": {
@@ -10951,6 +11022,14 @@
             "target": ""
           },
           "summary": "You take a moment to observe. When you act again, the world will answer."
+        },
+        {
+          "day": 136,
+          "action": {
+            "type": "WAIT",
+            "target": ""
+          },
+          "summary": "You take a moment to observe. When you act again, the world will answer."
         }
       ],
       "message": "You take a moment to observe. When you act again, the world will answer."
@@ -10961,7 +11040,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 2145,
+      "wood": 2160,
       "food": null,
       "gold": 20,
       "defeatedBy": null,
@@ -10975,7 +11054,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 2140,
+      "gold": 2155,
       "bonus": {
         "gold": 15
       },
@@ -10985,9 +11064,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 780,
-      "food": 780,
-      "gold": 780,
+      "wood": 785,
+      "food": 785,
+      "gold": 785,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -11000,7 +11079,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 89,
-      "food": 2128,
+      "food": 2143,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -11013,7 +11092,7 @@
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
       "wood": 755,
       "food": 664,
-      "gold": 910,
+      "gold": 925,
       "bonus": {},
       "defeatedBy": null
     }
@@ -12076,6 +12155,13 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "On the 135th day, the veil of dawn lifted over a world held in quietude. A single soul bore witness to the timeless turning, a solitary spark against the vast expanse, awaiting the stirrings of destiny."
+    },
+    {
+      "day": 136,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "**Day 136**\n\nThe world holds its breath under skies of tranquil grey, a silent witness to the solitary soul that carries the flame of existence. No great tremors shook the earth, nor did ancient powers stir from their slumber. Yet, in this profound stillness, the potential of all ages quietly unfurls."
     }
   ]
 }
