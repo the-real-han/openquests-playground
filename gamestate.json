@@ -1,5 +1,5 @@
 {
-  "day": 137,
+  "day": 138,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -2198,6 +2198,22 @@
           ],
           "population": 1,
           "summary": "Unable to generate location summary"
+        },
+        {
+          "day": 137,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "Day 137 in Pinewood Grove saw a surge in our wood stores. The Timberkeep clan thrives, a testament to our resilience and dedication."
         }
       ]
     },
@@ -4398,6 +4414,22 @@
           ],
           "population": 0,
           "summary": "Day 136 saw a productive effort at Goldforge Mine. Miners working for The Emberwatch clan unearthed a significant surge of gold within its depths. This rich vein promises continued prosperity for the clan."
+        },
+        {
+          "day": 137,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 137 proved exceptionally fruitful within the Goldforge Mine. A powerful resource surge swept through its depths, leading to a significant increase in precious gold. This welcome discovery promises renewed prosperity for the coming days."
         }
       ]
     },
@@ -5502,6 +5534,14 @@
           "events": [],
           "population": 0,
           "summary": "Harmony Fields enjoyed a tranquil day under the gentle sun. No major events or challenges arose, allowing the members of The Prismveil to tend to their duties in peace."
+        },
+        {
+          "day": 137,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Harmony Fields experienced a day of tranquility. The sun shone brightly, casting a peaceful glow over the land. For The Prismveil clan, it was a calm day, free from major disturbances."
         }
       ]
     },
@@ -7694,6 +7734,22 @@
           ],
           "population": 0,
           "summary": "Day 136 brought a welcome surge of vitality to the Golden Plains. The Sunherd clan celebrated a significant increase in their food stores, ensuring plentiful sustenance for all."
+        },
+        {
+          "day": 137,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 137 brought a welcome boon to the Golden Plains. The Sunherd clan saw their efforts rewarded as a significant surge of food was gathered from the fertile lands. This unexpected bounty ensures ample sustenance for the days ahead."
         }
       ]
     },
@@ -9886,6 +9942,22 @@
           ],
           "population": 0,
           "summary": "On Day 136, the Twilight Pits saw a remarkable upturn in fortunes for The Shardveil. Miners working deep within the caverns unearthed a substantial vein of gold, ensuring prosperous days ahead."
+        },
+        {
+          "day": 137,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 137 at the Twilight Pits brought fortune to The Shardveil. Miners delving deep within the dark veins discovered an unexpected surge of gold. This newfound wealth promises to bolster our efforts and strengthen our clan."
         }
       ]
     },
@@ -10917,6 +10989,13 @@
           "events": [],
           "population": 0,
           "summary": "The Wildrift experienced a day of quiet stillness. The air was calm, and the lands lay undisturbed beneath a peaceful sky, offering a brief respite from the usual challenges."
+        },
+        {
+          "day": 137,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "The Wildrift experienced a serene and uneventful day today, a rare tranquility settling over its ancient lands. The winds carried only the scent of pine and damp earth, promising peace."
         }
       ]
     }
@@ -10959,14 +11038,6 @@
         "attackedCount": 0
       },
       "history": [
-        {
-          "day": 128,
-          "action": {
-            "type": "WAIT",
-            "target": ""
-          },
-          "summary": "You take a moment to observe. When you act again, the world will answer."
-        },
         {
           "day": 129,
           "action": {
@@ -11030,6 +11101,14 @@
             "target": ""
           },
           "summary": "You take a moment to observe. When you act again, the world will answer."
+        },
+        {
+          "day": 137,
+          "action": {
+            "type": "WAIT",
+            "target": ""
+          },
+          "summary": "You take a moment to observe. When you act again, the world will answer."
         }
       ],
       "message": "You take a moment to observe. When you act again, the world will answer."
@@ -11040,7 +11119,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 2160,
+      "wood": 2175,
       "food": null,
       "gold": 20,
       "defeatedBy": null,
@@ -11054,7 +11133,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 2155,
+      "gold": 2170,
       "bonus": {
         "gold": 15
       },
@@ -11064,9 +11143,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 785,
-      "food": 785,
-      "gold": 785,
+      "wood": 790,
+      "food": 790,
+      "gold": 790,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -11079,7 +11158,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 89,
-      "food": 2143,
+      "food": 2158,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -11092,7 +11171,7 @@
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
       "wood": 755,
       "food": 664,
-      "gold": 925,
+      "gold": 940,
       "bonus": {},
       "defeatedBy": null
     }
@@ -12162,6 +12241,13 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "**Day 136**\n\nThe world holds its breath under skies of tranquil grey, a silent witness to the solitary soul that carries the flame of existence. No great tremors shook the earth, nor did ancient powers stir from their slumber. Yet, in this profound stillness, the potential of all ages quietly unfurls."
+    },
+    {
+      "day": 137,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "Unable to generate world summary"
     }
   ]
 }
