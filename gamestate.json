@@ -1,5 +1,5 @@
 {
-  "day": 142,
+  "day": 143,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -2278,6 +2278,22 @@
           ],
           "population": 1,
           "summary": "Pinewood Grove experienced a productive day for The Timberkeep clan. A significant surge in wood was discovered, providing a vital boost to their resources."
+        },
+        {
+          "day": 142,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "Pinewood Grove yielded a significant surge in wood resources for The Timberkeep clan today. This abundant find will undoubtedly prove invaluable for their ongoing projects."
         }
       ]
     },
@@ -4558,6 +4574,22 @@
           ],
           "population": 0,
           "summary": "Day 141 at Goldforge Mine brought a welcome discovery. The Emberwatch clan unearthed a significant surge of gold deep within the earth. This newfound wealth promises to bolster the clan's prosperity."
+        },
+        {
+          "day": 142,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 142 at Goldforge Mine brought a welcome discovery for The Emberwatch clan. Miners unearthed a significant surge of gold deep within the earth. This abundant find promises to enrich the clan's coffers and boost morale."
         }
       ]
     },
@@ -5702,6 +5734,14 @@
           "events": [],
           "population": 0,
           "summary": "A tranquil calm settled over Harmony Fields on Day 141, allowing The Prismveil to enjoy a moment of peace. The day passed without incident, a welcome respite."
+        },
+        {
+          "day": 142,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Harmony Fields enjoyed a tranquil day, with the sun casting a warm glow over its gentle slopes. The members of The Prismveil went about their tasks in serene peace."
         }
       ]
     },
@@ -7974,6 +8014,22 @@
           ],
           "population": 0,
           "summary": "Day 141 brought good fortune to the Golden Plains. A plentiful surge of food appeared across the fertile lands. This welcome bounty ensures the Sunherd clan's larders will be well-stocked."
+        },
+        {
+          "day": 142,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 142 brought a remarkable surge of food to the Golden Plains, greatly benefiting The Sunherd clan. The fertile lands proved exceptionally generous, providing a plentiful harvest to sustain their members."
         }
       ]
     },
@@ -10246,6 +10302,22 @@
           ],
           "population": 0,
           "summary": "On Day 141, The Shardveil clan at the Twilight Pits experienced a significant surge in their wood resources. Abundant timber was gathered, strengthening the clan's vital supplies."
+        },
+        {
+          "day": 142,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Unable to generate location summary"
         }
       ]
     },
@@ -11312,6 +11384,13 @@
           "events": [],
           "population": 0,
           "summary": "Day 141 in The Wildrift was marked by an unusual calm. The fierce winds that often scour its canyons softened to gentle breezes, and the untamed wilds settled into a rare moment of peace."
+        },
+        {
+          "day": 142,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "Day 142 dawned quietly over The Wildrift, a rare calm settling across the rugged canyons. The ancient winds merely whispered through the crags, bringing with them only the scent of distant pines. It was a day of stillness, offering a moment of tranquility amidst the wild."
         }
       ]
     }
@@ -11354,14 +11433,6 @@
         "attackedCount": 0
       },
       "history": [
-        {
-          "day": 133,
-          "action": {
-            "type": "WAIT",
-            "target": ""
-          },
-          "summary": "You take a moment to observe. When you act again, the world will answer."
-        },
         {
           "day": 134,
           "action": {
@@ -11425,6 +11496,14 @@
             "target": ""
           },
           "summary": "You take a moment to observe. When you act again, the world will answer."
+        },
+        {
+          "day": 142,
+          "action": {
+            "type": "WAIT",
+            "target": ""
+          },
+          "summary": "You take a moment to observe. When you act again, the world will answer."
         }
       ],
       "message": "You take a moment to observe. When you act again, the world will answer."
@@ -11435,7 +11514,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 2235,
+      "wood": 2250,
       "food": null,
       "gold": 20,
       "defeatedBy": null,
@@ -11449,7 +11528,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 2230,
+      "gold": 2245,
       "bonus": {
         "gold": 15
       },
@@ -11459,9 +11538,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 810,
-      "food": 810,
-      "gold": 810,
+      "wood": 815,
+      "food": 815,
+      "gold": 815,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -11474,7 +11553,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 89,
-      "food": 2218,
+      "food": 2233,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -11485,7 +11564,7 @@
       "id": "shardveil",
       "name": "The Shardveil",
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
-      "wood": 770,
+      "wood": 785,
       "food": 679,
       "gold": 970,
       "bonus": {},
@@ -12592,6 +12671,13 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "On the one hundred forty-first day, a profound stillness settled across the lands. A single soul remained, a lone echo within the vast, hushed world. Whether a final testament to a bygone age or the nascent spark of a new saga, the great tale paused, holding its breath."
+    },
+    {
+      "day": 142,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "On the hundred forty-second dawn, the world slumbered in a quiet embrace. The ancient energies of creation flowed unimpeded, undisturbed by the clamor of conflict or the whisper of change. Thus passed a day, marked only by the sun's slow journey across the heavens."
     }
   ]
 }
