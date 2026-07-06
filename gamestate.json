@@ -1,5 +1,5 @@
 {
-  "day": 149,
+  "day": 150,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -2390,6 +2390,22 @@
           ],
           "population": 1,
           "summary": "Pinewood Grove had a productive day under the watchful eyes of The Timberkeep. A significant surge in wood resources was gathered, bolstering the clan's reserves. It was a day of plentiful collection for the clan."
+        },
+        {
+          "day": 149,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "The Timberkeep clan experienced a surge of wood today, replenishing their stores. It was a day of quiet industry, as the clan focused on their preparations."
         }
       ]
     },
@@ -4782,6 +4798,22 @@
           ],
           "population": 0,
           "summary": "Day 148 saw a significant development at Goldforge Mine. A remarkable surge of gold was discovered deep within its shafts, providing a welcome bounty. This rich find is a promising boost for The Emberwatch clan."
+        },
+        {
+          "day": 149,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 149 dawned with a significant surge in gold veins, a promising sign for The Emberwatch. The miners worked diligently, their efforts yielding a bountiful increase in their most precious resource."
         }
       ]
     },
@@ -5982,6 +6014,14 @@
           "events": [],
           "population": 0,
           "summary": "Harmony Fields enjoyed a tranquil day. The sun shone brightly over the peaceful landscape, bringing a quiet calm to all."
+        },
+        {
+          "day": 149,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "On this quiet 149th day in Harmony Fields, a calm settled over the lands. The Prismveil clan enjoyed a day of peace, their endeavors yielding only a modest increase in the day's gathered herbs."
         }
       ]
     },
@@ -8366,6 +8406,22 @@
           ],
           "population": 0,
           "summary": "Day 148 brought a remarkable surge of food across the Golden Plains. This abundant bounty significantly replenished The Sunherd's stores, ensuring comfort and security for the clan."
+        },
+        {
+          "day": 149,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 149 on the Golden Plains saw a significant surge in food. The Sunherd clan rejoiced at this bountiful increase, a promising sign for the days ahead."
         }
       ]
     },
@@ -10750,6 +10806,22 @@
           ],
           "population": 0,
           "summary": "At the Twilight Pits, the Shardveil clan celebrated an unexpected bounty. The very earth yielded a substantial surge in gold, enriching their coffers."
+        },
+        {
+          "day": 149,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "On Day 149, the Twilight Pits brought good fortune to The Shardveil clan. A significant surge of food was discovered, replenishing their vital stores."
         }
       ]
     },
@@ -11865,6 +11937,13 @@
           "events": [],
           "population": 0,
           "summary": "The Wildrift experienced a day of unusual calm, with the winds whispering softly through the ancient trees. No significant events disturbed the tranquility of this mystic land."
+        },
+        {
+          "day": 149,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "A rare tranquility descended upon The Wildrift today. The usual tumultuous winds were gentle, and the deep chasms echoed with an unusual quiet. It was a day of welcome respite for all who dwell within its jagged embrace."
         }
       ]
     }
@@ -11907,14 +11986,6 @@
         "attackedCount": 0
       },
       "history": [
-        {
-          "day": 140,
-          "action": {
-            "type": "WAIT",
-            "target": ""
-          },
-          "summary": "You take a moment to observe. When you act again, the world will answer."
-        },
         {
           "day": 141,
           "action": {
@@ -11978,6 +12049,14 @@
             "target": ""
           },
           "summary": "You take a moment to observe. When you act again, the world will answer."
+        },
+        {
+          "day": 149,
+          "action": {
+            "type": "WAIT",
+            "target": ""
+          },
+          "summary": "You take a moment to observe. When you act again, the world will answer."
         }
       ],
       "message": "You take a moment to observe. When you act again, the world will answer."
@@ -11988,7 +12067,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 2340,
+      "wood": 2355,
       "food": null,
       "gold": 20,
       "defeatedBy": null,
@@ -12002,7 +12081,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 2335,
+      "gold": 2350,
       "bonus": {
         "gold": 15
       },
@@ -12012,9 +12091,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 845,
-      "food": 845,
-      "gold": 845,
+      "wood": 850,
+      "food": 850,
+      "gold": 850,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -12027,7 +12106,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 89,
-      "food": 2323,
+      "food": 2338,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -12039,7 +12118,7 @@
       "name": "The Shardveil",
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
       "wood": 800,
-      "food": 694,
+      "food": 709,
       "gold": 1030,
       "bonus": {},
       "defeatedBy": null
@@ -13194,6 +13273,13 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "The grand tapestry of existence unfurled, day after silent day. No great deeds were etched into the earth, nor were ancient secrets stirred from slumber. The world held its breath, a quiet realm poised between the echoes of history and the promise of tomorrow."
+    },
+    {
+      "day": 149,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "The mists of the Aetherium parted, revealing a world untouched by conflict.  One soul walked the land, a solitary beacon in the quiet expanse.  The day passed in hushed anticipation, as if the very earth held its breath for what was to come."
     }
   ]
 }
