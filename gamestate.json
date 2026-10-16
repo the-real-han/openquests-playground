@@ -1,5 +1,5 @@
 {
-  "day": 264,
+  "day": 265,
   "locations": {
     "pinewood-grove": {
       "id": "pinewood-grove",
@@ -4230,6 +4230,22 @@
           ],
           "population": 1,
           "summary": "Pinewood Grove experienced a significant surge in wood resources today. This bountiful harvest will prove invaluable for The Timberkeep clan's continued growth and prosperity."
+        },
+        {
+          "day": 264,
+          "location": "Pinewood Grove",
+          "clan": "The Timberkeep",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 1,
+          "summary": "Day 264 in Pinewood Grove saw a surge of vital wood for The Timberkeep. The clan continues to thrive in this bountiful location."
         }
       ]
     },
@@ -8462,6 +8478,22 @@
           ],
           "population": 0,
           "summary": "Day 263 dawned with a surge of gold, a promising sign for the Emberwatch clan. The deep veins of the Goldforge Mine yielded their bounty, hinting at prosperity to come. It was a day of quiet diligence and hope."
+        },
+        {
+          "day": 264,
+          "location": "Goldforge Mine",
+          "clan": "The Emberwatch",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "gold",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 264 at the Goldforge Mine saw a significant surge of gold discovered. The Emberwatch clan can rest assured that their efforts are yielding valuable rewards."
         }
       ]
     },
@@ -10582,6 +10614,14 @@
           "events": [],
           "population": 0,
           "summary": "Day 263 dawned peacefully in Harmony Fields. The Prismveil clan, having faced no significant threats, spent the day tending to their bountiful crystal mines. A quiet optimism settled over the fields as the clan looked forward to another day of peace and prosperity."
+        },
+        {
+          "day": 264,
+          "location": "Harmony Fields",
+          "clan": "The Prismveil",
+          "events": [],
+          "population": 0,
+          "summary": "Day 264 dawned peacefully over Harmony Fields. With no significant events recorded, the Prismveil clan enjoyed a serene day, a quiet moment of respite before their next endeavors."
         }
       ]
     },
@@ -14806,6 +14846,22 @@
           ],
           "population": 0,
           "summary": "Day 263 brought a welcome bounty to the Golden Plains. The Sunherd clan rejoiced as their food reserves saw a significant surge, ensuring sustenance for all. The fertile lands once again proved their generosity."
+        },
+        {
+          "day": 264,
+          "location": "Golden Plains",
+          "clan": "The Sunherd",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "food",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "Day 264 saw a welcome development in the Golden Plains. The Sunherd clan celebrated a significant surge in their food supplies. This bountiful replenishment ensures their well-being and strength for the trials ahead."
         }
       ]
     },
@@ -19030,6 +19086,22 @@
           ],
           "population": 0,
           "summary": "At the Twilight Pits, The Shardveil clan experienced a welcome surge in their gold reserves. This unexpected bounty provides a strong foundation for future endeavors in the region."
+        },
+        {
+          "day": 264,
+          "location": "Twilight Pits",
+          "clan": "The Shardveil",
+          "events": [
+            {
+              "type": "RESOURCE_SURGE",
+              "data": {
+                "resource": "wood",
+                "amount": 15
+              }
+            }
+          ],
+          "population": 0,
+          "summary": "On Day 264, a welcome bounty arrived at the Twilight Pits for The Shardveil clan. Resource gathering efforts yielded a significant amount of wood. This surge in lumber bolstered the clan's supplies and promises continued growth within their mystical domain."
         }
       ]
     },
@@ -20950,6 +21022,13 @@
           "events": [],
           "population": 0,
           "summary": "Day 263 passed peacefully in The Wildrift. The ancient trees stood sentinel, their leaves rustling softly in a gentle breeze. It was a tranquil day, with no major events to disturb the quiet rhythms of the land."
+        },
+        {
+          "day": 264,
+          "location": "The Wildrift",
+          "events": [],
+          "population": 0,
+          "summary": "Today was a day of unusual calm in The Wildrift. The winds whispered softly through the canyons, and no major events disrupted the quiet flow of the day. A welcome respite for all who dwell within its untamed borders."
         }
       ]
     }
@@ -20992,14 +21071,6 @@
         "attackedCount": 0
       },
       "history": [
-        {
-          "day": 255,
-          "action": {
-            "type": "WAIT",
-            "target": ""
-          },
-          "summary": "You take a moment to observe. When you act again, the world will answer."
-        },
         {
           "day": 256,
           "action": {
@@ -21063,6 +21134,14 @@
             "target": ""
           },
           "summary": "You take a moment to observe. When you act again, the world will answer."
+        },
+        {
+          "day": 264,
+          "action": {
+            "type": "WAIT",
+            "target": ""
+          },
+          "summary": "You take a moment to observe. When you act again, the world will answer."
         }
       ],
       "message": "You take a moment to observe. When you act again, the world will answer."
@@ -21073,7 +21152,7 @@
       "id": "timberkeep",
       "name": "The Timberkeep",
       "description": "Timberkeep’s people dwell in forest clearings surrounded by towering pines. They’re builders and wardens—steady as the trunks that shield their homes.",
-      "wood": 4065,
+      "wood": 4080,
       "food": null,
       "gold": 20,
       "defeatedBy": null,
@@ -21087,7 +21166,7 @@
       "description": "The miners and smiths of Emberwatch live among glowing forges and dusty tunnels rich with gold. They trade sweat for fortune and see progress in every swing of their hammers.",
       "wood": 95,
       "food": 95,
-      "gold": 4060,
+      "gold": 4075,
       "bonus": {
         "gold": 15
       },
@@ -21097,9 +21176,9 @@
       "id": "prismveil",
       "name": "The Prismveil",
       "description": "A gathering of traders and travelers who value balance over greed. Prismveil’s lands hold a little of everything—trees, farms, and gold for trade or craft.",
-      "wood": 1420,
-      "food": 1420,
-      "gold": 1420,
+      "wood": 1425,
+      "food": 1425,
+      "gold": 1425,
       "bonus": {
         "wood": 5,
         "food": 5,
@@ -21112,7 +21191,7 @@
       "name": "The Sunherd",
       "description": "Peaceful and hearty, the Sunherd clan tends vast grazing fields where flocks roam freely. Food means life to them, and their bounty feeds all who stand beside them.",
       "wood": 89,
-      "food": 4048,
+      "food": 4063,
       "gold": 100,
       "bonus": {
         "food": 15
@@ -21123,7 +21202,7 @@
       "id": "shardveil",
       "name": "The Shardveil",
       "description": "A clan of wanderers drawn to fortune and mystery. Each sunrise brings them a different bounty—some days gold, others wood or food. Chaos is their ally.",
-      "wood": 1550,
+      "wood": 1565,
       "food": 1189,
       "gold": 1510,
       "bonus": {},
@@ -23084,6 +23163,13 @@
       "bossEvents": [],
       "locationEvents": [],
       "summary": "Day 263 dawned with an almost sacred hush, the world holding its breath. Beneath the boundless sky, a singular essence persisted, a quiet beacon in the vastness, as if awaiting the grand overtures of fate."
+    },
+    {
+      "day": 264,
+      "population": 1,
+      "bossEvents": [],
+      "locationEvents": [],
+      "summary": "On the two hundred and sixty-fourth day, a singular soul traversed the lands, their journey continuing amidst the quietude of the world. The absence of great upheaval allowed the ancient stones to whisper their tales unheard, and the stars to chart their silent, celestial course. Though no grand battles were waged, the spirit of endurance persevered, a testament to the enduring pulse of existence."
     }
   ]
 }
